@@ -1,0 +1,1653 @@
+KNOWN BUGS:
+https://github.com/Illegal-Services/Illegal_Services/issues
+SOCIAL MEDIA'S:
+https://illegal-services.github.io/Illegal_Services/
+https://t.me/illegal_services_forum
+https://t.me/illegal_services
+https://github.com/Illegal-Services/Illegal_Services
+
+v6.1.9.6 - 09/12/2023
+* FIXED a bug where using Portmaster application would fails checking for internet in IS. (thanks @FearlessOfficial for bug report)
+
+v6.1.9.5 - 30/09/2023
+* IMPROVED source code from a bug-fix introduced in patch v6.1.9.4 - 25/08/2023
+- REMOVED Main Menu FAQ and Tutorial. Instead it will now start IS website targeted pages, that way it is easy for me to maintain it up-to-date on both IS Windows application and IS website.
+
+v6.1.9.4 - 25/08/2023
+* FIXED a bug from "curl.exe"'s "--create-dirs" option not working on cyrillic computers. (thanks @LegalDudee (https://t.me/LegalDudee) for reporting the bug, and testings)
+
+v6.1.9.3 - 10/07/2023
+* FIXED a bug introduced in patch v6.1.9.2 - 09/07/2023
+
+v6.1.9.2 - 09/07/2023
+* FIXED a bug when "OPEN" choice in Illegal Services x IS.bookmarks.html where showing up while this option is now depracted as of patch v6.1.9.0 - 17/06/2023
+* FIXED a bug when "UPDATE" choice in Illegal Services x IS.bookmarks.html where not showing an internet error message in case you didn't connected to internet.
+* IMPROVED IS Source : Code.
+* IMPROVED IS Source : More precise error messages at some places.
+- REMOVED Main Menu Credits. Instead it will now start IS website credits page, that way it is easy for me to maintain it up-to-date on both IS Windows application and IS website.
+
+v6.1.9.1 - 17/06/2023
+* IMPROVED IS Source : Code.
+
+v6.1.9.0 - 17/06/2023
+* FIXED a bug blocking people to use IS because it could not work with the "my documents" user's folder. (probably due to OneDrive or others cloud file saving plateforms.)
+The fameous: "Illegal Services cannot start because it could not determine its output directory." that a lot of people have reported to me.
+Now the "C:\Users\username\Documents\llegal Services" folder changed location and should have automatically moved all files to "C:\Users\username\AppData\Roaming\Illegal Services\user_data\".
+* FIXED a potential bug due to a compiler's bug, that was setting the wrong paths at some places in IS.
+
+v6.1.8.9 - 18/03/2023
++ UPDATED IS lib : bookmarks_parser.exe
+
+v6.1.8.8 - 16/03/2023
+* FIXED IS Main Menu, Illegal Services x IS.bookmarks.html "IP Denial of Services (DDoS)" displaying "Bookmarks Toolbar/Illegal Services/More Features/Warez Wikis/IP DENIAL OF SERVICES (DDOS)" instead of "Bookmarks Toolbar/Illegal Services/IP Denial of Services (DDoS)".
+* FIXED Illegal Services x IS.bookmarks.html case sensivity searches.
+
+v6.1.8.7 - 25/02/2023
+* HOTFIX for Quick Batch File Compiler not registered.
+
+v6.1.8.6 - 25/02/2023
+- REMOVED IS Proxy : https://git.teknik.io/Illegal-Services/Illegal_Services (down)
+* UPDATED IP Denial of Services (DDoS)
+
+v6.1.8.5 - 23/11/2022
+* FIXED IS Setup : Support for Windows 11.
+* FIXED IS Launcher : Searching a proxy.
+* FIXED IS Source : Minor bugs.
+* IMPROVED IS Source : Support for Windows 11.
+* IMPROVED IS Source : Moved "Portable_Apps", "YouTube DL" and "IS.bookmarks.html" folders and files to the "Illegal Services" user documents folder.
+* IMPROVED IS Source : Moved both "Portable_Apps" and "YouTube DL" folders to "Illegal Services" user documents.
+* IMPROVED IS Source : Error Messages.
++ ADDED Settings : Scan down or changed domain websites whitelist.
++ ADDED IS Source : more error messages.
++ ADDED IS Source : Now logs are created in the "Illegal Services" user documents under the "logs" folder.
++ ADDED IS Source : Now before downloading IS.bookmarks.html, it checks that the online hash is different from the local one.
++ ADDED More Features : View Hardware Identification.
++ ADDED Settings : Extract IS source code (publicly)
++ UPDATED IS lib : EULA.rtf
+
+v6.0.0.0 - 17/02/2022
+* FIXED IS Source : Minor bugs.
+* FIXED IS Source : A bug when Illegal Services executable have been renamed with invalid characters.
+* FIXED IS Source : A bug when Illegal Services call PowerShell, the screen appears to change size. (thanks @exro)
+* FIXED IS Source : A bug when user edits "IP Lookup Saved.txt" but forget the ending newline. (thanks @Grub4K)
+* IMPROVED IS Source : Code.
+* IMPROVED IS Source : Curl PATH algorithm. (thanks @Grub4K)
+* IMPROVED Launcher : Checking files integrity.
+* IMPROVED Launcher : Checking Windows version.
++ UPDATED IS lib : curl.exe v7.81.0
++ UPDATED Main Menu Credits.
++ UPDATED Main Menu Our Social Networks.
++ UPDATED Main Menu FAQ.
++ UPDATED IP Address Lookup. (thanks @Rosalyn)
++ ADDED IS lib : binread (thanks @anic17 and @Grub4K)
++ ADDED IS lib : bookmarks_parser.exe (thanks @Grub4K)
++ ADDED Setup : Checking Windows version.
++ ADDED IS Source : IS bookmarks parser. (Illegal Services x IS.bookmarks.html)
++ ADDED IS Source : Support for Windows 11. (thanks @Grub4K and @sintrode)
++ ADDED IS Source : IS.Bookmarks.html parser (thanks @Grub4K, @sintrode and @anic17)
++ ADDED IS Source : Multiple checkbox choices.
++ ADDED More Features : Spoofing. (thanks @0x00)
+- REMOVED IS Source : Support for Windows 7, 8, 8.1 (https://github.com/Illegal-Services/Illegal_Services/issues/7)
+- REMOVED IS lib : Ansicon
+
+v5.9.0.0 - 19/09/2021
+- REDUCED Code. (~12 ko)
+* IMPROVED code.
+* IMPROVED flagging of untrusted website.
+* FIXED Settings : Bugs related to user input in Regedit. (thanks @anic17 and @sintrode)
+* FIXED Minimum version of illegal services is now set to Windows 7.
+* FIXED a bug with antivirus conflicting with the updater.
+* FIXED a bug with an infinite build update loop when "Illegal_Services.exe" does not have the correct build number assigned.
+* FIXED a bug when HTTPS was always chosen to start websites.
+* FIXED a bug with YouTube DL "change output location" not changing "download location" strings.
+* FIXED a bug when the "&" character was entered in the URL checker.
+* FIXED minor bugs.
+* MOVED Useful Websites : https://doxbin.org/ in Doxing.
+* MOVED Useful Websites : https://freezer.life/ in More Features Musics.
++ UPDATED IS lib : curl.exe v7.79.0
++ UPDATED IS lib : EULA.rtf
++ UPDATED IS lib : Tutorial.html (thanks @anic17)
++ UPDATED Main Menu Credits.
++ UPDATED Internet Protocol Television : http://pro.allkaicerteam.com/
++ UPDATED Direct Download Link [EN] : https://downturk.net/
++ UPDATED Direct Download Link [EN] : https://2ddl.it/
++ UPDATED Direct Download Link [EN] : https://downloadhub.wtf/
++ UPDATED Direct Download Link [FR] : https://www.tirexo.work/
++ UPDATED Direct Download Link [FR] : https://free-telecharger.net/
++ UPDATED Direct Download Link [FR] : https://www.extreme-down.plus/home.html
++ UPDATED Direct Download Link [FR] : https://zone-telechargement.cam/
++ UPDATED Direct Download Link [FR] : https://www.wawacity.one/
++ UPDATED Streaming [EN] : https://losmovies.app/
++ UPDATED Streaming [EN] : https://watchseriess.net/
++ UPDATED Streaming [EN] : https://ww2.123movieshub.tc/
++ UPDATED Streaming [EN] : https://0gomovies.so/
++ UPDATED Streaming [EN] : https://www2.kiss-anime.asia/
++ UPDATED Streaming [EN] : https://animevibe.se/
++ UPDATED Streaming [EN] : http://live94today.com/
++ UPDATED Streaming [EN] : https://reddit.stream2watch.sx/
++ UPDATED Streaming [FR] : https://french-stream.re/
++ UPDATED Streaming [FR] : https://www.streaminz.me/
++ UPDATED Streaming [FR] : https://vostanimez.com/
++ UPDATED Streaming [FR] : https://wvvw.toonanime.tv/
++ UPDATED Streaming [FR] : https://animevostfr.tv/
++ UPDATED Streaming [FR] : https://animecomplet.me/
++ UPDATED Torrenting : https://www.torrentfunk.com/
++ UPDATED Torrenting : https://yourbittorrent.com/
++ UPDATED Torrenting : https://www3.yggtorrent.nz/
++ UPDATED Torrenting : https://www.oxtorrent.nz/
++ UPDATED Torrenting : https://bitsearch.to/
++ UPDATED Torrenting : https://proxy-bay.dev/
++ UPDATED Torrenting : https://unblockproject.monster/
++ UPDATED Torrenting : https://unblocksource.net/
++ UPDATED Torrenting : https://unblockit.ws/
++ UPDATED Torrenting : qBittorrent v4.3.8
++ UPDATED Cracked Windows Apps : https://www.mrpcgamer.co/
++ UPDATED Cracked Windows Apps : https://agfy.co/
++ UPDATED Cracked Windows apps : https://cygames.fr/
++ UPDATED Cracked Windows Apps : https://www.gamestorrents.fm/
++ UPDATED Cracked Windows Apps : https://e13.xatab-repack.com/
++ UPDATED Cracked Android APK's : https://moddroid.co/
++ UPDATED Cracked Android APK's : https://apkdump.com/
++ UPDATED Cracked Android APK's : https://apk-house.com/
++ UPDATED IP Port Scanning : Npcap v1.55
++ UPDATED Portable Apps : CCleaner v585
++ UPDATED Portable Apps : Dism++ v10.1.1002.1
++ UPDATED Portable Apps : Windows Repair AIO v4.11.7
++ UPDATED Portable Apps : DriversCloud v11.0.2.0
++ UPDATED Portable Apps : Snappy Driver Installer v2102
++ UPDATED Portable Apps : CPU-Z v1.97
++ UPDATED Portable Apps : DoNotSpy 10 v5.3.0.0
++ UPDATED Portable Apps : Everything v1.4.1.1015
++ UPDATED Portable Apps : Process Hacker v3.0.4373
++ UPDATED Portable Apps : ISLC v1.0.2.5
++ UPDATED More Features Ebooks : https://ww2.bookys-ebooks.com/
++ UPDATED More Features Ebooks : https://www.readlightnovel.me/
++ ADDED IS Source : Automatic proxy switcher. (thanks @sintrode)
++ ADDED Settings : Untrusted Websites Warning.
++ ADDED Direct Download Link [EN] : https://avxhm.is/
++ ADDED Direct Download Link [EN] : https://www.downduck.com/
++ ADDED Direct Download Link [EN] : https://www.creaxy.com/
++ ADDED Direct Download Link [EN] : https://www.freshwap.us/
++ ADDED Direct Download Link [EN] : https://www.apps4all.com/
++ ADDED Direct Download Link [EN] : https://rlsbb.ru/
++ ADDED Direct Download Link [EN] : https://oneddl.org/
++ ADDED Direct Download Link [EN] : https://www.rlslog.net/
++ ADDED Direct Download Link [EN] : https://freshwap.cc/
++ ADDED Direct Download Link [EN] : https://dl4all.org/
++ ADDED Direct Download Link [EN] : https://warezomen.com/
++ ADDED Direct Download Link [EN] : https://win7dl.org/
++ ADDED Direct Download Link [EN] : https://downtr.cc/
++ ADDED Direct Download Link [EN] : https://www.kokodown.com/
++ ADDED Direct Download Link [EN] : https://uhdmv.org/
++ ADDED Direct Download Link [EN] : https://softddl.org/
++ ADDED Direct Download Link [EN] : https://katzddl.net/
++ ADDED Direct Download Link [EN] : https://warezbb.net/
++ ADDED Direct Download Link [EN] : https://filmsofts.com/
++ ADDED Direct Download Link [EN] : https://heroturko2.net/
++ ADDED Direct Download Link [EN] : https://themoviesflix.co.com/
++ ADDED Direct Download Link [EN] : https://themovieflix.co.in/
++ ADDED Direct Download Link [EN] : https://animetosho.org/
++ ADDED Direct Download Link [EN] : https://nxmac.com/
++ ADDED Direct Download Link [EN] : https://macdrop.net/
++ ADDED Direct Download Link [EN] : https://audioz.download/
++ ADDED Direct Download Link [EN] : https://sheet-music.xyz/
++ ADDED Direct Download Link [EN] : https://www.gfxtra31.com/
++ ADDED Direct Download Link [FR] : https://www.zone-down.com/
++ ADDED Streaming [EN] : https://animeow.me/
++ ADDED Streaming [EN] : https://arrayanime.com/
++ ADDED Streaming [FR] : https://www.cinezzz.org/
++ ADDED Streaming [FR] : https://daijoubu.si/
++ ADDED Torrenting : https://concen.org/
++ ADDED Torrenting : https://mac-torrent-download.net/
++ ADDED Torrenting : https://mac-torrents.io/
++ ADDED Torrenting : https://filelisting.com/
++ ADDED Torrenting : https://bt4g.org/
++ ADDED Torrenting : https://ibit.to/
++ ADDED Torrenting : https://torrentparadise.pm/
++ ADDED Torrenting : https://otorrents.com/
++ ADDED Torrenting : https://vstorrent.org/
++ ADDED Torrenting : https://torrentz2eu.me/
++ ADDED Torrenting : https://proxyninja.org/
++ ADDED Torrenting Torrent Applications.
++ ADDED Subtitles : https://ytsubtitles.com/
++ ADDED Subtitles : https://www.sous-titres.eu/
++ ADDED Subtitles : https://www.u-sub.net/
++ ADDED Cracked Windows apps : https://kolompc.com/
++ ADDED Cracked Windows apps : https://gigapurbalingga.net/
++ ADDED Cracked Windows apps : https://www.4download.net/
++ ADDED Cracked Windows apps : https://startcrack.net/
++ ADDED Cracked Windows apps : https://keygenninja.net/
++ ADDED Cracked Windows apps : https://fileash.com/
++ ADDED Useful Websites : Combo Lists (thanks @blacktario)
++ ADDED Useful Websites : https://proxy-daily.com/ (thanks @blacktario)
++ ADDED Useful Websites : https://smallseotools.com/free-proxy-list/ (thanks @blacktario)
++ ADDED Useful Websites : https://xresolver.com/ (thanks @FZ_PARRAIN_ZF)
++ ADDED Useful Websites : https://www.skypeipresolver.net/ (thanks @blacktario)
++ ADDED Useful Websites : https://leak.sx/combolist.php (thanks @blacktario)
++ ADDED Useful Websites : https://combo-list.com/ (thanks @blacktario)
++ ADDED Useful Websites : https://www.frecombo.com/search/label/Combo-List (thanks @blacktario)
++ ADDED Useful Websites : https://combolist.io/ (thanks @blacktario)
++ ADDED Useful Websites : https://combolist.top/ (thanks @blacktario)
++ ADDED Useful Websites : https://sinister.ly/Forum-Combo-Lists (thanks @blacktario)
++ ADDED Useful Websites : https://mailaccess.top/forums/combolists.13/ (thanks @blacktario)
++ ADDED Useful Websites : https://t.me/s/dailycombolist (thanks @blacktario)
++ ADDED IP Denial of Services : https://quez.in/
++ ADDED IP Denial of Services : https://royalstresser.com/
++ ADDED IP Denial of Services : https://stresser.zone/
++ ADDED IP Denial of Services : https://xtremebooter.xyz/
++ ADDED IP Denial of Services : https://wannabe1337.xyz/stresser
++ ADDED IP Denial of Services : https://deltastress.com/
++ ADDED IP Loggers : https://blasze.com/
++ ADDED Doxing : https://instantusername.com/#/
++ ADDED Doxing : https://analyzeid.com/username/
++ ADDED Doxing : https://namechk.com/ (thanks @blacktario)
++ ADDED Doxing : https://checkuser.org/
++ ADDED Doxing : https://www.namecheckr.com/ (thanks @blacktario)
++ ADDED Doxing : https://usersearch.org/index.php (thanks @blacktario)
++ ADDED More Features : Release Logs.
++ ADDED More Features : Musics.
++ ADDED More Features Warez Wikis : http://machicoulis.over-blog.com/2019/11/les-bons-liens-pour-telecharger.html
++ ADDED More Features Warez Wikis : https://rentry.org/SoftwarePirates-Megathread
++ ADDED More Features Ebooks : https://www.pdfdrive.com/
++ ADDED More Features Ebooks : https://english-bookys.com/
++ ADDED More Features Ebooks : https://ww1.bookys-ebooks.com/
++ ADDED More Features Ebooks : http://ebook-planete.org/
++ ADDED More Features Ebooks : https://dbfree.me/
++ ADDED More Features Ebooks : https://www.pdf-ebookys.com/
++ ADDED More Features Ebooks : https://www.mangago.me/ (thanks @Eiralys)
++ ADDED More Features Ebooks : https://comix.top/
++ ADDED More Features Ebooks : https://www.readlightnovel.org/
++ ADDED More Features Forum Websites : https://www.wawa-rammstein.de/
++ ADDED More Features Forum Websites : https://ddlbase.net/
++ ADDED More Features Forum Websites : https://planete-warez.net/
++ ADDED More Features Forum Websites : https://www.tigers-dl.net/
++ ADDED More Features Forum Websites : https://mailaccess.top/
+- REMOVED Settings : Uninstall Illegal Services. (I don't found a correct way to code it.)
+- REMOVED Direct Download Link [EN] : https://gdrivedl.com/ (down)
+- REMOVED Direct Download Link [FR] : https://www.ddl-best.net/ (down)
+- REMOVED Streaming [FR] : https://10flix.com/ (down)
+- REMOVED Streaming [FR] : https://vostfrserie.ws/ (down)
+- REMOVED Streaming [FR] : https://antennesport.tv/ (down)
+- REMOVED Streaming Applications : https://kisscartoon.info/kisscartoon-official-android-app/ (down)
+- REMOVED Streaming Applications : https://animeglare.xyz/ (down)
+- REMOVED Torrenting : https://freetorrent.tk/ (down)
+- REMOVED Torrenting : https://magnet4you.me/library.php (down)
+- REMOVED Torrenting : https://torrent4you.me/ (down)
+- REMOVED Subtitles : https://www.subtitles.hr/ (down)
+- REMOVED Cracked Windows apps : https://v8.xatab-repack.net/ (down)
+- REMOVED Useful Websites : https://onlynudes.net/ (No NSFW in IS.)
+- REMOVED Useful Websites : https://www.journaldupirate.net/ (down)
+- REMOVED IP Denial of Services : https://udp.so/ (down)
+- REMOVED IP Denial of Services : https://booter.sx/ (not free anymore)
+- REMOVED More Features Forum Websites : https://batch.xoo.it/index.php (Has nothing to do near or far with warez content or Illegal Services.)
+
+v5.8.0.0 - 21/07/2021
+* IMPROVED code.
+* FIXED "ControlSet001" to "CurrentControlSet" (thanks @AMIT)
+* FIXED minor bugs.
++ UPDATED IS lib : curl.exe v7.78.0
++ UPDATED Internet Protocol Television : VLC media player v3.0.15
++ UPDATED Direct Download Link [EN] : https://downloadhub.red/
++ UPDATED Direct Download Link [EN] : https://gfx-hub.cc/
++ UPDATED Direct Download Link [FR] : https://ww1.jeddl.com/
++ UPDATED Streaming [EN] : https://losmovies.life/
++ UPDATED Streaming [EN] : https://direct.stream2watch.sx/
++ UPDATED Streaming [FR] : https://hdss.papystreaming.net/
++ UPDATED Streaming [FR] : https://www.streaminz.cc/
++ UPDATED Streaming [FR] : https://vfstreamiz.com/
++ UPDATED Torrenting : https://www.limetorrents.pro/
++ UPDATED Torrenting : https://www.torrentdownloads.pro/
++ UPDATED Torrenting : https://www.oxtorrent.pe/
++ UPDATED Torrenting : https://proxy-bay.com/
++ UPDATED Torrenting : https://unblockit.uno/
++ UPDATED Cracked Windows Apps : https://v8.xatab-repack.net/
++ UPDATED Cracked Windows Apps : https://e12.xatab-repack.com/
++ UPDATED IP Port Scanning : Npcap v1.50
++ UPDATED Portable Apps : CCleaner v583
++ UPDATED Portable Apps : Windows Repair AIO v4.11.4
++ UPDATED Portable Apps : Display Driver Uninstaller v18.0.4.0
++ UPDATED Portable Apps : Spybot - Search and Destroy v2.8.68
++ UPDATED Portable Apps : Process Hacker v3.0.4212
++ UPDATED Portable Apps : ISLC v1.0.2.4
++ UPDATED More Features Forum Websites : https://www.mywarez.org/
++ ADDED Internet Protocol Television : http://iptv.allkaicerteam.com/ (thanks @PistachePoilue)
++ ADDED Internet Protocol Television : https://www.iptvm3ulist.com/
++ ADDED Direct Download Link [FR] : https://nandesuka.moe
++ ADDED Direct Download Link [EN] : https://worldsrc.net/
++ ADDED Direct Download Link [EN] : https://animekayo.com/
++ ADDED Direct Download Link [EN] : https://animekaizoku.com/
++ ADDED Direct Download Link [EN] : https://ssanime.ga/
++ ADDED Direct Download Link [EN] : https://cdromance.com/
++ ADDED Direct Download Link [EN] : https://www.romnation.net/
++ ADDED Direct Download Link [EN] : https://vimm.net/
++ ADDED Streaming [EN] : https://yesmovies.ag/
++ ADDED Streaming [EN] : https://www11.123movieshub.one/
++ ADDED Streaming [EN] : https://vumoo.to/
++ ADDED Streaming [EN] : https://anime8.ru/
++ ADDED Streaming [EN] : https://www2.kickassanime.ro/
++ ADDED Streaming [EN] : https://www1.animeultima.to/
++ ADDED Streaming [EN] : https://time4tv.stream/
++ ADDED Streaming [EN] : https://123tv.live/
++ ADDED Streaming [FR] : https://french-manga.net/
++ ADDED Torrenting : https://www.torrentdownload.info/
++ ADDED Torrenting : https://badasstorrents.com/
++ ADDED Torrenting : https://bitcq.com/
++ ADDED Torrenting : https://www.7torrents.cc/
++ ADDED Torrenting : https://knaben.eu/
++ ADDED Torrenting : https://btdig.com/
++ ADDED Torrenting : https://ext.to/
++ ADDED Torrenting : https://torrents-csv.ml/
++ ADDED Torrenting : https://knaben.info/
++ ADDED Subtitles : https://www.opensubtitles.com/
++ ADDED Subtitles : https://www.kitsunekko.net/
++ ADDED Subtitles : https://subs.nandesuka.workers.dev/
++ ADDED Cracked Windows Apps : https://appload.club/
++ ADDED Cracked Windows Apps : https://piratepc.me/
++ ADDED Cracked Windows Apps : https://crackhub.site/
++ ADDED Cracked Windows Apps : https://gamesnostalgia.com/
++ ADDED Cracked Windows Apps : https://www.game-repack.site/
++ ADDED Cracked Windows Apps : https://elamigos.site/
++ ADDED Cracked Windows Apps : https://gamesdrive.net/
++ ADDED Cracked Windows Apps : https://www.tiny-repacks.win/
++ ADDED Cracked Windows Apps : https://repack.info/
++ ADDED Cracked Windows Apps : https://m4ckd0ge-repacks.me/
++ ADDED Cracked Windows Apps : https://e10.xatab-repack.com/
++ ADDED Cracked Windows Apps : https://qoob.name/
++ ADDED Cracked Android APK's : https://apkmb.com/
++ ADDED Cracked Android APK's : https://dlandroid.com/
++ ADDED Cracked Android APK's : https://proapk.in/mod-apk/
++ ADDED Cracked Android APK's : https://apkhouse.com/
++ ADDED Useful Websites : https://courvix.com/
++ ADDED IP Denial of Services : https://instant-stresser.com/
++ ADDED Portable Apps : Destroy Windows 10 Spying RE
++ ADDED More Features : Warez Wikis.
++ ADDED More Features : Ebooks.
++ ADDED More Features Warez Content Creator : https://mediaarea.net/en/MediaInfo
++ ADDED More Features Forum Websites : https://starwarez-sharing.name/Fofo/
++ ADDED More Features Windows Tweaks : Enable "Ultimate Performance" power scheme.
+- REMOVED Internet Protocol Television : https://github.com/vovanloc271/Settings (down)
+- REMOVED Direct Download Link [EN] : https://javshare.ml/ (No NSFW in IS.)
+- REMOVED Streaming [EN] : https://tinyzonetv.to/ (clone of myflixertv.to)
+- REMOVED Streaming [EN] : https://4anime.to/ (down)
+- REMOVED Streaming [EN] : https://aniwoofy.ml/ (maintenance)
+- REMOVED Streaming [FR] : https://fan-dmanga.fr/ (maintenance)
+- REMOVED Torrenting : https://btdb.eu/ (down)
+- REMOVED Torrenting : https://www.skytorrents.to/ (down)
+- REMOVED Cracked Windows apps : https://startcrack.net/ (down)
+- REMOVED Useful Websites : https://boobify.club/ (down)
+- REMOVED IP Denial of Services : https://www.stressthem.to/ (down)
+- REMOVED IP Denial of Services : https://webstress.net/ (down)
+- REMOVED IP Denial of Services : https://power-bypass.com/ (down)
+- REMOVED More Features Forum Websites : https://1337x-forum.eu/ (maintenance)
+- REMOVED More Features : Batch Scripts by FreeBooter (Has nothing to do near or far with warez content or Illegal Services.)
+
+v5.7.0.0 - 12/06/2021
+- REDUCED Code. (~6 ko thanks @Grub4K and @anic17)
+* IMPROVED code.
+* IMPROVED UI choices. (thanks @Saltyy)
+* IMPROVED UI centered text code. (thanks @Grub4K)
+* IMPROVED String length limit detection. (thanks @Grub4K)
+* IMPROVED Settings : Change username. (thanks @sintrode and @Grub4K)
+* FIXED a bug about curl downloads when Illegal Services PATH contain special characters.
+* FIXED minor bugs.
++ UPDATED Main Menu Our Social Networks.
++ UPDATED Main Menu FAQ.
++ UPDATED Direct Download Link [EN] : https://softarchive.is/
++ UPDATED Direct Download Link [FR] : https://www.ddl-best.net/
++ UPDATED Streaming [EN] : https://0gomovies.io/
++ UPDATED Streaming [FR] : https://w.vfstreamingfr.net/
++ UPDATED Streaming [FR] : https://vostanimes.tv/
++ UPDATED Torrenting : https://torrent9.to/
++ UPDATED Torrenting : https://unblockit.li/
++ UPDATED Cracked Windows Apps : https://v6.xatab-repack.net/
++ UPDATED Cracked Android APK's : https://www.apkheist.com/
++ UPDATED IP Address Lookup : Lookup an other URL : Now convert any links to format: "example.com".
++ UPDATED Portable Apps : DNS Jumper.
++ UPDATED Portable Apps : Process Hacker v3.0.4164
++ ADDED IS lib : COPYING (General Public License v3.0 (GNU GPLv3))
++ ADDED Credits : Open/SaveFileBox
++ ADDED Internet Protocol Television : https://telechargeriptv.com/
++ ADDED Direct Download Link [EN] : http://downmagaz.net/
++ ADDED Direct Download Link [EN] : http://magazinelib.com/
++ ADDED Direct Download Link [EN] : https://z-lib.org/ (thanks @Killua)
++ ADDED Direct Download Link [EN] : http://audiobookbay.nl/
++ ADDED Direct Download Link [FR] : http://fr.downmagaz.net/
++ ADDED Direct Download Link [FR] : https://planete-bd.org/
++ ADDED Direct Download Link [FR] : https://pdf.1001ebooks.com/
++ ADDED Streaming [EN] : https://frenzymovies.net/
++ ADDED Streaming [EN] : https://cinehub.wtf/
++ ADDED Streaming [EN] : https://openloadfreetv.me/
++ ADDED Streaming [EN] : https://allmoviesforyou.co/
++ ADDED Streaming [EN] : https://animeheaven.pro/
++ ADDED Streaming [EN] : https://aniwoofy.ml/
++ ADDED Streaming [EN] : https://animeowl.net/
++ ADDED Streaming [EN] : https://animefrenzy.org/
++ ADDED Streaming [EN] : https://www1.kiss-anime.asia/
++ ADDED Streaming [EN] : https://animevibe.wtf/
++ ADDED Streaming [EN] : https://animixplay.to/
++ ADDED Streaming [EN] : https://ww1.animesimple.com/
++ ADDED Streaming [EN] : https://zoro.to/
++ ADDED Streaming [EN] : http://livetv.sx/
++ ADDED Streaming [EN] : https://live-on.stream2watch.sx/
++ ADDED Streaming [EN] : http://sportplus.live/
++ ADDED Streaming [FR] : https://www.showstream.xyz/
++ ADDED Streaming [FR] : https://www.adkami.com/
++ ADDED Streaming [FR] : https://toonanime.tv/
++ ADDED Streaming [FR] : https://www.myfree-tivi.com/
++ ADDED Streaming [FR] : https://fr4.sportplus.live/
++ ADDED Streaming [FR] : https://streaming-sport.tv/
++ ADDED Streaming [FR] : http://livetv.sx/frx/
++ ADDED Streaming Applications : https://animixplay.to/android/app
++ ADDED Streaming Applications : https://tvmob.net/
++ ADDED Streaming Applications : https://www.livenettv.bz/
++ ADDED Cracked Android APK's : https://rexdl.com/
++ ADDED Cracked Android APK's : https://www.apps4download.com/
++ ADDED Useful Websites : https://lewebde.com/
++ ADDED Doxing : https://metager.org/
++ ADDED Doxing : https://www.entireweb.com/ (thanks @snipercat)
+- REMOVED Streaming [EN] : https://www.watchepisodeseries1.com/ (down)
+- REMOVED Streaming [EN] : https://www.watchepisodes4.com/ (down)
+- REMOVED Streaming [EN] : https://www.animefreak.tv/ (down)
+- REMOVED Streaming [FR] : https://filmflix.watch/ (down)
+- REMOVED Torrenting : https://p2pdl.com/ (down)
+
+v5.6.0.0 - 27/05/2021
+- REDUCED Code.
+* IMPROVED code.
+* IMPROVED UI centered text code. (thanks @Grub4K)
+* FIXED minor bugs.
++ UPDATED IS lib : cmdwiz.exe v1.7.0.0
++ UPDATED Direct Download Link [EN] : https://downloadhub.ninja/
++ UPDATED Direct Download Link [FR] : https://www2.tirexo.club/
++ UPDATED Direct Download Link [FR] : https://www.extreme-down.live/
++ UPDATED Direct Download Link [FR] : https://www.wawacity.bz/
++ UPDATED Streaming [FR] : https://french-stream.re/
++ UPDATED Streaming [FR] : https://wvw.hds.lc/
++ UPDATED Streaming [FR] : https://filmflix.watch/
++ UPDATED Streaming [FR] : http://tratov.com/
++ UPDATED Streaming [FR] : https://wvw.jetanimes.com/
++ UPDATED Streaming [FR] : https://animesvostfr.net/
++ UPDATED Streaming Applications : https://popcorn-time.tw/
++ UPDATED Streaming Applications : https://www.beetvapk.me/
++ UPDATED Portable Apps : CCleaner v580
++ UPDATED Portable Apps : DNS Jumper.
++ UPDATED Portable Apps : Radeon Software Slimmer v1.2.0
++ UPDATED Portable Apps : Process Hacker v3.0.4110
++ UPDATED Streaming [FR] : https://vostfree.tv/
++ UPDATED Torrenting : https://www.oxtorrent.ph/
++ ADDED Settings : Username length limit.
++ ADDED Main Menu FAQ : Is Illegal Services illegal ?
++ ADDED Streaming [EN] : https://animesuge.io/
++ ADDED Streaming Applications : https://kisscartoon.info/
++ ADDED Cracked Windows Apps : https://www.cybermania.ws/
++ ADDED Cracked Android APK's : https://apkmagic.com.ar/
++ ADDED Cracked Android APK's : https://5mod.ru/
++ ADDED Cracked Android APK's : https://apk4all.com/
++ ADDED Cracked Android APK's : https://apkmody.io/
++ ADDED Cracked Android APK's : https://ihackedit.com/
++ ADDED Cracked Android APK's : https://iplayplus.org/
++ ADDED Cracked Android APK's : https://www.ytricks.net/
++ ADDED Cracked Android APK's : https://apkheist.com/
++ ADDED Useful Websites : https://shadowcrypt.net/
++ ADDED Useful Websites : https://dirtywarez.org/
++ ADDED Useful Websites : https://p2pfr.com/
++ ADDED Useful Websites : https://www.mega-p2p.net/
++ ADDED Useful Websites : https://filepursuit.com/
++ ADDED Useful Websites : https://www.aiosearch.com/
++ ADDED Useful Websites : https://www.filechef.com/
++ ADDED IP Address Lookup : Automatically generate the height based on the number of results.
++ ADDED IP Denial of Services : https://udp.so/
++ ADDED IP Denial of Services : https://str3ssed.co/
++ ADDED IP Denial of Services : https://power-bypass.com/
++ ADDED IP Denial of Services : https://booter.sx/
++ ADDED IP Denial of Services : https://str3sser.io/
++ ADDED More Features Forum Websites : https://www.adit-hd.com/
++ ADDED More Features Forum Websites : https://forum.release-apk.com/
++ ADDED More Features Forum Websites : https://forum.mobilism.me/
+- REMOVED IS lib : "Curl\x86\libcurl.dll" (not needed)
+- REMOVED IS lib : "Curl\x86\libcurl.def" (not needed)
+- REMOVED IS lib : "Curl\x86\curl-ca-bundle.crt" (not needed)
+- REMOVED IS lib : "Curl\x64\libcurl-x64.dll" (not needed)
+- REMOVED IS lib : "Curl\x64\libcurl-x64.def" (not needed)
+- REMOVED IS lib : "Curl\x64\curl-ca-bundle.crt" (not needed)
+- REMOVED Direct Download Link [EN] : https://x265movies.cc/ (down)
+- REMOVED Direct Download Link [EN] : https://freedownloadae.com/ (down)
+- REMOVED Streaming [EN] : https://ww1.gomovies.re/ (down)
+- REMOVED Streaming [EN] : https://1movies.best/ (down)
+- REMOVED Cracked Android APK's : https://www.apps2app.com/ (down)
+- REMOVED Useful Websites : https://patorjk.com/ (Has nothing to do near or far with warez content or Illegal Services.)
+- REMOVED Useful Websites : https://photomosh.com/ (Has nothing to do near or far with warez content or Illegal Services.)
+- REMOVED Useful Websites : https://www.remove.bg/ (Has nothing to do near or far with warez content or Illegal Services.)
+- REMOVED IP Denial of Services : https://thunderstresser.me/ (down)
+- REMOVED IP Denial of Services : https://stresser.ovh/ (down)
+
+v5.5.0.0 - 07/05/2021
+- REDUCED Code.
+* IMPROVED IS Launcher : Searching a proxy. (thanks @Grub4K)
+* IMPROVED IS Launcher.
+* IMPROVED IP Address Lookup.
+* IMPROVED More Features Windows Repair.
+* IMPROVED Settings.
+* FIXED minor bugs.
++ UPDATED Internet Protocol Television : https://www.iptvm3ufree.com/
++ UPDATED Portable Apps : Driver Store Explorer v0.11.72
++ UPDATED Portable Apps : Windows Repair AIO v4.11.3
++ UPDATED Portable Apps : Process Hacker v3.0.4025
++ ADDED OPEN to open "Portable_Apps" / "Illegal Services" / "YouTube Downloader" folder.
++ ADDED Streaming [EN] : https://runnel.ir/
++ ADDED Streaming [EN] : https://sportsbay.org/
++ ADDED Streaming [EN] : https://thehomesport.com/
++ ADDED Streaming [FR] : https://channelstream.watch/
++ ADDED Streaming [FR] : https://sport-stream.live/
++ ADDED Streaming [FR] : https://antennesport.tv/
++ ADDED Direct Download Link [EN] : https://rmz.cr/
++ ADDED Direct Download Link [EN] : https://scene-rls.net/
++ ADDED Direct Download Link [EN] : https://dl4all.biz/
++ ADDED Direct Download Link [EN] : https://movieparadise.org/
++ ADDED Direct Download Link [EN] : https://release.movieparadise.org/
++ ADDED Direct Download Link [EN] : https://katzdownload.com/
++ ADDED Direct Download Link [EN] : https://crazy4tv.com/
++ ADDED Direct Download Link [EN] : https://x265movies.cc/
++ ADDED Direct Download Link [EN] : https://hevcbay.com/
++ ADDED Direct Download Link [EN] : https://hi10anime.com/
++ ADDED Direct Download Link [EN] : https://gfx-hub.net/
++ ADDED Cracked Windows Apps : https://darckrepacks.com/
++ ADDED Cracked Windows Apps : https://www.gnarly-repacks.site/
++ ADDED Torrenting : https://freetorrent.tk/ (thanks @RezoAtomicWayne)
++ ADDED Useful Websites : https://lamule.eu/
++ ADDED IP Denial of Services : https://vtoxicity.net/
++ ADDED IP Address Lookup : https://whatismyipaddress.com/ (thanks @cocorisss)
++ ADDED IP Loggers : https://webresolver.nl/tools/iplogger
++ ADDED Doxing : https://iqdb.org/
++ ADDED More Features : Warez Content Creator
++ ADDED More Features Forum Websites : https://prostylex.org/
++ ADDED More Features Forum Websites : https://forum.anime-ultime.net/
++ ADDED More Features Forum Websites : https://www.warezheaven.com/
++ ADDED More Features Forum Websites : https://www.frboard.com/
++ ADDED More Features Forum Websites : https://forumpoint.org/
++ ADDED More Features Forum Websites : https://platinmods.com/
++ ADDED More Features Windows Repair : Disk Cleanup
+- REMOVED IP Denial of Services : https://downed.io/ (down)
+
+v5.4.0.0 - 02/05/2021
+- REDUCED Code. (~33 ko)
+* IMPROVED Code.
+* IMPROVED Error Messages.
+* FIXED various minor bugs.
+* FIXED a bug with the stack memory overflow causing IS to crash. (thanks @Grub4K)
+* FIXED YouTube Downloader : Encoding bug with output location. (still buggy but it's better than before.)
+* FIXED IP Port Scanning : Encoding bug. (still buggy but it's better than before.)
+* FIXED IP Address Lookup : "," characters were deleted by mistake.
+* FIXED Settings : Scan down or changed domain websites. (Removed http false results. Also improved and reduced it's code.)
+* FIXED Settings : Scan down or changed domain websites seconds timer bug. (thanks @Grub4K)
++ UPDATED IS lib : Backgrounds .bkg to .jpg
++ UPDATED IS lib : curl.exe v7.76.1
++ UPDATED IS lib : cmdbkg.exe v2.1.0.0
++ UPDATED IS lib : cmdwiz.exe v1.8.0.0
++ UPDATED URL/IP/Port Checker.
++ UPDATED IS Launcher. (thanks @anic17)
++ UPDATED "YouTube DL", "NMAP", "Scan down or changed domain websites" and "IP Pinger" : No more need to wait, they are opening in a new process so you can still use Illegal Services without have to open it again.
++ UPDATED Internet Protocol Television : https://www.iptv4free.com/
++ UPDATED Internet Protocol Television : https://dailym3uiptv.com/
++ UPDATED Direct Download Link [EN] : https://x265.club/
++ UPDATED Streaming [EN] : http://losmovies.xyz/
++ UPDATED Streaming [EN] : https://gomovies-online.cam/
++ UPDATED Streaming [EN] : https://www4.watchseriess.co/
++ UPDATED Streaming [EN] : https://0gomovies.li/
++ UPDATED Streaming [EN] : https://9anime.to/
++ UPDATED Streaming [EN] : https://www1.7anime.io/
++ UPDATED Streaming [FR] : https://hds.papystreaming.net/
++ UPDATED Streaming [FR] : https://vfstreamingfr.net/
++ UPDATED Streaming [FR] : https://streamcomplet.buzz/
++ UPDATED Streaming [FR] : https://www.universanime.co/
++ UPDATED Streaming Applications : https://www1.beetvapk.me/
++ UPDATED Torrenting : https://proxy-bay.co/
++ UPDATED Torrenting : https://unblockproject.casa/
++ UPDATED Torrenting : https://unblockit.onl/
++ UPDATED Torrenting : qBittorrent v4.3.4.1
++ UPDATED Cracked Windows Apps : https://gamesforyou.co/
++ UPDATED Cracked Windows Apps : https://v5.xatab-repack.net/
++ UPDATED IP Denial of Services : https://ipstress.in/
++ UPDATED IP Port Scanning : Npcap v1.31
++ UPDATED IP Address Lookup.
++ UPDATED Portable Apps links. (some links been removed for Illegal reasons)
++ UPDATED Portable Apps : Windows Repair AIO v4.11.2
++ UPDATED Portable Apps : Process Hacker v3.0.4017
++ UPDATED Portable Apps : Crystal Disk Info v8.12.0
++ UPDATED Portable Apps : CCleaner v578
++ UPDATED Portable Apps : Defender Control v1.8
++ ADDED more French translations.
++ ADDED Show Window for "Scan down or changed domain websites" and "FAQ". (This prevents you from opening more than one window for them.)
++ ADDED Choose any options containing letters by any beginning of its prefix. Example: "BACK" can be entered using "B" / "BA" / "BAC" / "BACK".
++ ADDED IS lib : SaveFileBox.exe
++ ADDED IS lib : OpenFileBox.exe
++ ADDED Main Menu : CHANGELOG
++ ADDED Credits : @Grub4K
++ ADDED Settings : Change username.
++ ADDED Settings : Export\Import settings.
++ UPDATED Main Menu Credits.
++ ADDED Portable Apps : Edge Blocker
+- REMOVED IS lib : batool.exe (no longer used)
+- REMOVED IS lib : fart.exe (no longer used)
+- REMOVED Main Menu : HELP (now start tutorial.html)
+- REMOVED Internet Protocol Television : https://github.com/thefidoknol/m3u (down)
+- REMOVED Direct Download Link [EN] : https://softarchive.icu/ (down)
+- REMOVED Direct Download Link [FR] : https://starwarez-sharing.org/ (down)
+- REMOVED Streaming [FR] : https://www.streaminz.xyz/ (down)
+- REMOVED Streaming [FR] : https://www.fullanimefr.com/ (down)
+- REMOVED Subtitles : https://www.yts-sub.com/ (down)
+- REMOVED Subtitles : https://xsubs.org/ (down)
+- REMOVED Useful Websites : https://iraven.cc/ (down)
+- REMOVED Useful Websites : https://www.wareziens.net/ (down)
+- REMOVED Doxing : https://iqdb.org/ (down)
+- REMOVED Doxing : https://yippy.com/ (down)
+- REMOVED IP Denial of Services : https://quez.in/ (down)
+- REMOVED IP Denial of Services : https://freeipstresser.net/ (down)
+- REMOVED IP Denial of Services : https://iraven.cc/ (down)
+- REMOVED Portable Apps : SpeedTest
+
+v5.3.0.0 - 18/03/2021
+* IMPROVED Code.
++ UPDATED Setup Eula.
++ UPDATED Direct Download Link [EN] : https://hdencode.org/
++ UPDATED Streaming [EN] : https://1movies.best/
++ UPDATED Streaming [EN] : https://www12.9anime.to/
++ UPDATED Streaming [FR] : https://vf.papystreaming.net/
++ UPDATED Torrenting : https://unblockit.buzz/
++ UPDATED Cracked Windows Apps : https://v3.xatab-repack.net/
++ UPDATED Portable Apps : Process Hacker v3.0.3887
++ ADDED more French translations.
++ ADDED Internet Protocol Television : Tutorial
++ ADDED Cracked Windows Apps : https://www.game3rb.com/
++ ADDED Cracked Windows Apps : https://agfy.co/
++ ADDED Cracked Windows Apps : https://freegameshub.co/
++ ADDED Cracked Windows Apps : https://alltorrents.co/
++ ADDED Cracked Android APK's : https://github.com/xManager-v2/xManager-Spotify
++ ADDED Cracked Android APK's : https://bluesmods.com/bluecord.html
++ ADDED Useful Websites : https://freezer.life/
+- REMOVED Direct Download Link [FR] : https://www.ddl-island.cc/ (down)
+- REMOVED Streaming [EN] : https://animeflix.io/ (down)
+- REMOVED Streaming [FR] : https://www.stream-island.cc/ (down)
+- REMOVED Streaming [FR] : https://www.manga-vf.fr/ (down)
+- REMOVED More Features Forum Websites : https://darckrepacks.com/ (down)
+- REMOVED IP Denial of Services : https://stressing.ninja/ (down)
+- REMOVED IP Denial of Services : https://stresser.net/ (down)
+
+v5.2.0.0 - 08/03/2021
+* IMPROVED Code.
+- REDUCED code (~135 ko ; thanks @anic17)
++ UPDATED IS lib : ffmpeg.exe v2021-02-23-git-78d5e1c653-essentials_build-www.gyan.dev
++ UPDATED Direct Download Link [FR] : https://www2.tirexo.ai/
++ UPDATED Direct Download Link [FR] : https://www.wawacity.tv/
++ UPDATED Streaming [EN] : https://www4.yesmovies.so/
++ UPDATED Streaming [EN] : https://myflixertv.to/
++ UPDATED Streaming [EN] : https://0gomovies.sh/
++ UPDATED Streaming [EN] : https://ww1.123movieshub.tc/
++ UPDATED Streaming [EN] : https://www3.watchseriess.co/
++ UPDATED Streaming [EN] : https://www13.9anime.to/
++ UPDATED Streaming [FR] : https://hd.papystreaming.net/
++ UPDATED Streaming [FR] : https://fcine.me/
++ UPDATED Streaming [FR] : https://streamfr.watch/
++ UPDATED Streaming [FR] : https://wwv.vfstreamingfr.com/
++ UPDATED Streaming [FR] : https://otakufr.co/
++ UPDATED Streaming [FR] : https://vostanimes.net/
++ UPDATED Torrenting : https://www.oxtorrent.tv/
++ UPDATED Torrenting : https://proxybay.ltda/
++ UPDATED Torrenting : https://unblocksource.org/
++ UPDATED Cracked Windows Apps : https://haxnode.net/
++ UPDATED Cracked Windows Apps : https://v2.xatab-repack.net/
++ UPDATED YouTube Downloader : YouTube DLC to YouTube DLP.
++ UPDATED Portable Apps : CCleaner v577
++ UPDATED Portable Apps : Process Hacker v3.0.3866
++ UPDATED Portable Apps : CrystalDiskInfo v8.11.2
++ UPDATED Portable Apps Windows and Office Cracks. (links been removed for Illegal reasons)
++ ADDED Archived Error Message.
++ ADDED Internet Protocol Television : https://www.iptv1.org/
++ ADDED Direct Download Link [EN] : https://www.heroturko.net/
++ ADDED Direct Download Link [EN] : https://sanet.st/
++ ADDED Direct Download Link [EN] : https://softarchive.icu/
++ ADDED Direct Download Link [EN] : https://www.downturk.net/
++ ADDED Direct Download Link [EN] : https://downarchive.org/
++ ADDED Direct Download Link [EN] : https://0dayhome.net/
++ ADDED Direct Download Link [EN] : https://hdencode.com/
++ ADDED Direct Download Link [EN] : http://www.rlslog.net/
++ ADDED Direct Download Link [EN] : https://apps-pack.com/
++ ADDED Direct Download Link [EN] : https://tfpdl.to/
++ ADDED Direct Download Link [EN] : https://rlstop.net/
++ ADDED Direct Download Link [EN] : https://www.300mbfilms.ws/
++ ADDED Direct Download Link [EN] : https://downloadhub.kim/
++ ADDED Direct Download Link [EN] : https://rsload.net/
++ ADDED Direct Download Link [EN] : https://cgpersia.com/
++ ADDED Direct Download Link [EN] : https://psa.one/
++ ADDED Direct Download Link [EN] : https://1worldfree4u.trade/
++ ADDED Direct Download Link [EN] : https://freedownloadae.com/
++ ADDED Direct Download Link [FR] : https://www.free-telecharger.net/
++ ADDED Direct Download Link [FR] : https://ww13.je-ddl.com/
++ ADDED Direct Download Link [FR] : https://9docu.org/
++ ADDED Streaming [EN] : https://5movies.pw/
++ ADDED Streaming : Streaming Applications
++ ADDED Torrenting : https://btdb.eu/
++ ADDED Torrenting : https://www.torrentdownloads.me/
++ ADDED Torrenting : https://p2pdl.com/
++ ADDED Torrenting : https://prostylex.org/
++ ADDED Torrenting : https://yourbittorrent2.com/
++ ADDED Torrenting : https://www.demonoid.is/
++ ADDED Torrenting : https://www.skytorrents.to/
++ ADDED Torrenting : https://www.torlock.com/
++ ADDED Torrenting : https://zooqle.com/
++ ADDED Torrenting : https://magnet4you.me/
++ ADDED Torrenting : https://torrent4you.me/
++ ADDED Torrenting : https://siteunblocked.info/
++ ADDED Torrenting : https://unblocksource.org/
++ ADDED Cracked Windows Apps : https://www.novahax.com/
++ ADDED Cracked Windows Apps : https://starcrack.net/
++ ADDED Cracked Windows Apps : https://www.ovagames.com/
++ ADDED Cracked Windows Apps : https://gogunlocked.com/
++ ADDED Cracked Windows Apps : https://scooter-repacks.site/
++ ADDED Cracked Android APK's : https://apkhome.net/
++ ADDED Cracked Android APK's : https://oceanofapk.com/
++ ADDED Cracked Android APK's : https://apk4free.org/
++ ADDED Cracked Android APK's : https://moddroid.com/
++ ADDED Cracked Android APK's : https://inewkhushi.com/
++ ADDED YouTube Downloader : Auto Updates.
++ ADDED IP Denial of Services : https://stresser.ovh/
++ ADDED IP Denial of Services : https://booter.is/
++ ADDED Doxing : https://www.etools.ch/
++ ADDED Doxing : https://biznar.com/
++ ADDED Doxing : https://search.carrot2.org/
+- REMOVED Internet Protocol Television : https://www.iptv4free.com/ (down)
+- REMOVED Internet Protocol Television : https://github.com/aniceto097tamo415/Aniceto-IPTV-Lists (down)
+- REMOVED Internet Protocol Television : https://github.com/diony462/IPTV (down)
+- REMOVED Streaming [EN] : https://flixtor.video/ (clone of fmovies.to)
+- REMOVED Streaming [EN] : https://www3.f2movies.to/ (clone of myflixerhd.ru)
+- REMOVED Streaming [EN] : https://ww1.putlocker.vip/ (replaced by 5movies.pw)
+- REMOVED Streaming [EN] : https://www.uwatchfree.mn/ (scam)
+- REMOVED Streaming [EN] : https://www1.watch-series.la/ (down)
+- REMOVED Streaming [EN] : https://haho.moe/
+- REMOVED Streaming [EN] : https://hentaihaven.org/
+- REMOVED Streaming [FR] : https://animecomplet.fr/ (down)
+
+v5.1.0.0 - 18/02/2021
+- REDUCED Code.
+* FIXED some display bugs.
+* FIXED Settings : Developer Mode empty choice making IS unuseable.
+* MOVED Main Menu : Download Subtitles
+* MOVED Direct Download Link [EN] : https://tb.rg-adguard.net/ in Portable Apps Windows and Office Cracks.
++ UPDATED Setup Eula.
++ UPDATED IS lib : curl.exe : v7.75.0
++ UPDATED IS lib : YouTube DL v2021.02.10
++ UPDATED IS lib : ffmpeg.exe v4.3.1-2021-01-01-essentials_build-www.gyan.dev
++ UPDATED Direct Download Link [FR] : https://www.zt-za.net/
++ UPDATED Direct Download Link [FR] : https://www.extreme-down.tv/
++ UPDATED Direct Download Link [FR] : https://www.wawacity.video/
++ UPDATED Streaming [EN] : https://losmovies.site/
++ UPDATED Streaming [EN] : https://fmovies.to/
++ UPDATED Streaming [EN] : https://ww1.gomovies.re/
++ UPDATED Streaming [EN] : https://ww.123movies.sc/
++ UPDATED Streaming [EN] : https://www.uwatchfree.mn/
++ UPDATED Streaming [EN] : https://www12.9anime.to/
++ UPDATED Streaming [EN] : https://kissanimefree.to/
++ UPDATED Streaming [FR] : http://zotriv.com/
++ UPDATED Streaming [FR] : https://vostfrserie.ws/
++ UPDATED Streaming [FR] : https://vostanimes.co/
++ UPDATED Torrenting : https://www4.yggtorrent.li/
++ UPDATED Torrenting : https://www.oxtorrent.ws/
++ UPDATED Torrenting : https://proxybay.earth/
++ UPDATED Torrenting : https://unblockit.link/
++ UPDATED Torrenting : https://unblockproject.cyou/
++ UPDATED Torrenting : https://torrentmirror.xyz/
++ UPDATED Cracked Windows Apps : https://filewomen.com/
++ UPDATED Cracked Windows Apps : https://lrepacks.net/
++ UPDATED IP Denial of Services : https://eor-n.to/
++ UPDATED IP Port Scanning : Python Port Scanner. (thanks @cocorisss)
++ UPDATED Portable Apps : Winaero Tweaker v0.19.1
++ UPDATED Portable Apps : BleachBit v4.2.0
++ UPDATED Portable Apps : Display Driver Uninstaller v18.0.3.6
++ UPDATED Portable Apps : Radeon Software Slimmer v1.0.0
++ UPDATED Portable Apps : CPU-Z v1.95
++ UPDATED Portable Apps : Windows Spy Blocker v4.34.2
++ UPDATED Portable Apps : Windows Repair AIO v4.11.0
++ UPDATED Portable Apps : Everything v1.4.1.1005
++ UPDATED Portable Apps : Process Hacker v3.0.3835
++ UPDATED Portable Apps : CrystalDiskInfo v8.11.1
++ UPDATED Portable Apps Windows and Office Cracks. (links been removed for Illegal reasons)
++ UPDATED Portable Apps Windows and Office Cracks : AAct v4.2.1
++ UPDATED Portable Apps Windows and Office Cracks : ConsoleAct v3.0
++ UPDATED Portable Apps Windows and Office Cracks : KMSoffline v2.1.9
++ UPDATED Portable Apps Windows and Office Cracks : MSAct++ v2.07.4
++ UPDATED Portable Apps Windows and Office Cracks : Office 2013-2019 C2R Install v7.1.0
++ ADDED IS lib : Tutorial.html
++ ADDED Main Menu : Internet Protocol Television (IPTV) (thanks @Chonkus)
++ ADDED Direct Download Link [EN] : https://scnlog.me/
++ ADDED Direct Download Link [EN] : https://rlsbb.ru/
++ ADDED Direct Download Link [EN] : https://animeshare.cf/
++ ADDED Direct Download Link [EN] : https://javshare.ml/
++ ADDED Streaming [EN] : https://123movies.jp/
++ ADDED Streaming [EN] : https://ww2.1movies.is/
++ ADDED Streaming [EN] : https://www1.123movies.co/
++ ADDED Streaming [EN] : https://ww1.putlocker.vip/
++ ADDED Streaming [EN] : https://lookmovie.io/
++ ADDED Streaming [EN] : https://123movies.sc/
++ ADDED Streaming [EN] : https://yesmovies.ag/
++ ADDED Streaming [EN] : https://watchtvepisodes.me/
++ ADDED Streaming [EN] : https://hulu.sc/
++ ADDED Streaming [EN] : https://www1.watch-series.la/
++ ADDED Streaming [EN] : https://www.watchepisodes4.com/
++ ADDED Streaming [EN] : https://animepahe.com/
++ ADDED Streaming [EN] : https://twist.moe/
++ ADDED Streaming [EN] : https://animeflix.io/
++ ADDED Streaming [FR] : https://french-stream.lol/
++ ADDED Streaming [FR] : https://fcine.tv/
++ ADDED Streaming [FR] : https://www.filmstreaminglol.com/
++ ADDED Streaming [FR] : https://vf.streamfr.film/
++ ADDED Streaming [FR] : https://vfstreamingfr.com/
++ ADDED Streaming [FR] : https://www.streaminz.xyz/
++ ADDED Streaming [FR] : https://10flix.com/
++ ADDED Streaming [FR] : https://streamfilms.pw/
++ ADDED Streaming [FR] : https://fan-dmanga.fr/
++ ADDED Torrenting : https://www.anirena.com/
++ ADDED Torrenting : https://subsplease.org/
++ ADDED Cracked Windows Apps : https://getintopc.com/
++ ADDED Cracked Android Apps : https://www.apps2app.com/
++ ADDED Cracked Windows Apps : https://w14.monkrus.ws/
++ ADDED Cracked Windows Apps : https://gog-games.com/
++ ADDED Cracked Windows Apps : https://masquerade.site/
++ ADDED Cracked Windows Apps : https://cpgrepacks.site/
++ ADDED Cracked Windows Apps : https://www.myabandonware.com/
++ ADDED YouTube DL : Process priority setting.
++ ADDED Useful Websites : https://cybernews.com/personal-data-leak-check/
++ ADDED More Features Forum Websites : https://www.nulled.to/ (thanks @Trident Security)
++ ADDED More Features Forum Websites : https://cracked.to/ (thanks @Trident Security)
++ ADDED IP Denial of Services : https://asylumstresser.to/
++ ADDED IP Port Scanning : Process priority setting.
++ ADDED Doxing : https://iqdb.org/
++ ADDED Doxing : https://saucenao.com/
++ ADDED Doxing : https://trace.moe/
++ ADDED Doxing : https://ascii2d.net/
++ ADDED Portable Apps Windows and Office Cracks : https://rg-adguard.net/
++ ADDED Portable Apps Windows and Office Cracks : https://the-eye.eu/public/MSDN/Windows 7/
++ ADDED More Features : Download subtitles.
++ ADDED Credits : All other people who helped me
++ ADDED Settings : Uninstall Illegal Services.
+- REMOVED IS lib : Get the latest version here.url
+- REMOVED IS lib : Tutorial.txt
+- REMOVED Direct Download Link [FR] : http://www.site-de-telechargement.com/ (down)
+- REMOVED Streaming [EN] : http://www.5movies.to/ (down)
+- REMOVED Streaming [FR] : https://cinemey.com/ (scam)
+- REMOVED Streaming [FR] : https://www.streamoi.com/ (scam)
+- REMOVED Streaming [FR] : https://voir.lesseriestreaming.com/ (scam)
+- REMOVED Portable Apps Windows and Office Cracks : https://babupc.com/ (scam)
+- REMOVED IP Denial of Services : https://freeboot.to/ (down)
+- REMOVED IP Denial of Services : https://litestress.com/ (down)
+- REMOVED IP Denial of Services : https://str3ssed.co/ (not free anymore)
+- REMOVED IP Denial of Services : https://powerstress.xyz/ (down)
+- REMOVED Subtitles : https://www.opensubtitles.com/ (down)
+- REMOVED Doxing : Illegal Services Search Engine - [Doxing] (pointless)
+
+v5.0.0.0 - 02/01/2021
+* IMPROVED Setup.
+* FIXED a bug in the settings. (Borders transparency not working)
+* FIXED a bug with wrong choices. (thanks @Vincent and @anic17)
++ UPDATED Setup : Now install Illegal Services to %AppData%. (No more administrator for installation requiered. Other's user wont see Illegal Services as installed in the computer.)
++ UPDATED IS lib : YouTube DL v2020.12.22
++ UPDATED Credits : Speak by Fatih Kodak
++ UPDATED Credits : curl
++ UPDATED Direct Download Link [FR] : https://www2.tirexo.io/
++ UPDATED Direct Download Link [FR] : https://www.ddl-island.cc/
++ UPDATED Streaming [EN] : https://www.stream-island.cc/
++ UPDATED Streaming [EN] : https://www6.filmstreaming.to/
++ UPDATED Streaming [EN] : https://www3.animesvostfr.net/
++ UPDATED Streaming [EN] : https://animecomplet.co/
++ UPDATED Streaming [EN] : https://watchseriess.co/
++ UPDATED Streaming [EN] : https://www3.f2movies.to/
++ UPDATED Streaming [EN] : https://www2.solarmovie.to/
++ UPDATED Streaming [EN] : https://www.uwatchfree.vg/
++ UPDATED Streaming [EN] : https://gogoanime.vc/
++ UPDATED Streaming [EN] : https://www12.9anime.to/
++ UPDATED Streaming [FR] : https://voiranime.com/
++ UPDATED Torrenting : https://proxybay.buzz/
++ UPDATED Torrenting : https://unblockit.dev/ (thanks @RaaFii1)
++ UPDATED Torrenting : https://unblockproject.rest/
++ UPDATED Cracked Windows Apps : https://v1.xatab-repack.net/
++ UPDATED Cracked Android Apps : https://vancedapp.com/
++ UPDATED Useful Websites : https://www.fakeimess.com/
++ UPDATED Portable Apps : Windows Spy Blocker v4.34.1
++ UPDATED Portable Apps : Display Driver Uninstaller v18.0.3.5
++ UPDATED Portable Apps : Process Hacker v3.0.3694
++ ADDED Setup : Regedit cleanup Illegal Services folders at uninstallation.
++ ADDED Settings : Scan changed domains. (thanks @anic17, @sintrode and @Grub4K)
++ ADDED Direct Download Link [EN] : https://2ddl.ms/
++ ADDED Direct Download Link [EN] : https://megaddl.co/
++ ADDED Direct Download Link [EN] : https://gdrivedl.com/
++ ADDED Direct Download Link [EN] : https://the-eye.eu/ (thanks @RaaFii1)
++ ADDED Streaming [EN] : https://soap2day.to/
++ ADDED Torrenting : https://yifystatus.com/
++ ADDED Cracked Windows Apps : https://getintopc.com/
++ ADDED Cracked Windows Apps : https://izofile.com/
++ ADDED Cracked Windows Apps : https://cracksurl.com/
++ ADDED Cracked Windows Apps : https://steamunlocked.net/ (thanks @Bastien)
++ ADDED Cracked Windows Apps : https://dodi-repacks.site/
++ ADDED Cracked Windows Apps : https://www.fcportables.com/
++ ADDED Useful Websites Others : https://weboas.is/
++ ADDED More Features Forum Websites : https://forum.ddlvalley.me/
++ ADDED More Features Forum Websites : https://forum.snahp.it/
++ ADDED More Features Forum Websites : https://forums.anidex.moe/
++ ADDED More Features Forum Websites : https://angietorrents.cc/
++ ADDED IP Address Lookup : Anycast detection. (Lookup an other IP)
++ ADDED Portable Apps : Mem Reduct
++ ADDED Portable Apps : GiveMePower
++ ADDED Portable Apps : RegScanner
++ ADDED Portable Apps : ISLC
+- REMOVED Direct Download Link [FR] : https://www.mamega.com/ (down)
+
+v4.2.0.0 - 12/12/2020
+* FIXED major issues from v4.1.0.0 (Settings.ini not working on old Windows and other source bugs)
+* IMPROVED IS Source : Portable Apps downloads now moved to : https://github.com/Illegal-Services/Illegal_Services/tree/downloads
++ UPDATED IS lib : YouTube DL v2020.12.12
++ UPDATED Portable Apps : CCleaner v575
++ UPDATED Portable Apps : Windows Repair AIO v4.10.2
++ UPDATED Portable Apps : Process Hacker v3.0.3680
++ ADDED Streaming [EN] : https://movie4u.live/
++ ADDED Direct Download Link [EN] : https://www.scnsrc.me/
++ ADDED Direct Download Link [EN] : https://www.ddlvalley.me/
++ ADDED Direct Download Link [EN] : https://releasehive.com/
++ ADDED Direct Download Link [EN] : https://snahp.it/
++ ADDED Torrenting : https://anidex.info/
++ ADDED Torrenting : https://www.gtdb.to/
++ ADDED Torrenting : https://anidex.info/
++ ADDED Torrenting : https://angietorrents.cc/
++ ADDED Torrenting : https://pirateiro.com/
++ ADDED Torrenting : https://www.ettvcentral.com/
++ ADDED Cracked Windows apps : https://ftuapps.dev/
++ ADDED Cracked Windows apps : https://www.skidrowcodex.net/
++ ADDED Useful Websites : https://onehack.us/
++ ADDED Settings : Check for updates.
+- REMOVED Streaming [EN] : https://primewire.pw/ (down)
+- REMOVED Streaming [EN] : https://123movies.co/ (down)
+- REMOVED Torrenting : https://kickass.onl/ (I don't want to index unofficial websites)
+- REMOVED Cracked Windows apps : https://skidrowcodex.co/ (fake)
+- REMOVED Cracked Windows apps : https://skidrowcodexgames.com/ (fake)
+
+v4.1.0.0 - 09/12/2020
+- REDUCED Code.
++ UPDATED IS lib : curl.exe v7.74.0
++ UPDATED IS lib : YouTube DL v2020.12.09
++ UPDATED IS lib : Tutorial.txt
++ UPDATED Portable Apps : Everything v1.4.1.1000
++ UPDATED Portable Apps : Process Hacker v3.0.3672
++ UPDATED Settings : Scan down websites.
++ UPDATED HELP.
++ ADDED Direct Download Link [FR] : https://www.zone-mania.com/
++ ADDED Direct Download Link [FR] : https://www.mamega.com/
++ ADDED Direct Download Link [FR] : https://zone-ebook.com/
++ ADDED Direct Download Link [FR] : http://bookddl.com/
++ ADDED Streaming [EN] : https://4anime.io/
++ ADDED Torrenting : Check if installed bittorrent client.
++ ADDED Torrenting : ADD. (This option allow you to create a magnet link using an hash) (a thank to @sintrode and https://www.dostips.com/DtTipsStringOperations.php#Function.strLen for the help)
++ ADDED Torrenting : https://www.sharewood.tv/
++ ADDED Torrenting : https://torrends.to/
++ ADDED Torrenting : https://torrends.to/
++ ADDED Cracked Windows apps : https://www.gamestorrents.nu/
++ ADDED Useful Websites : https://wannabe1337.xyz/
++ ADDED Useful Websites : https://mostwantedhf.info/
++ ADDED Doxing : https://www.infospace.com/
++ ADDED IP Denial of Services : https://webstress.io/
++ ADDED Settings : Developer Options. (Only available for Illegal Services developers) (thank you so much @anic17 for the suggestion and the big help)
++ ADDED Settings : Developer Options : Extract IS source code. (a thank to @anic17 for the suggestion)
+- REMOVED IS lib : Settings.ini Advertisements.
+- REMOVED Torrenting : https://torrentz2.is/ (down)
+- REMOVED Doxing : https://www.dogpile.com/ (clone of https://www.infospace.com/)
+- REMOVED Doxing : https://www.metacrawler.com/ (clone of https://www.infospace.com/)
+- REMOVED IP Denial of Services : https://instant-stresser.com/ (down)
+- REMOVED IP Denial of Services : https://stresslab.io/ (down)
+
+v4.0.0.0 - 30/11/2020
+- REDUCED Code. (~17 ko ; thanks @anic17)
+* IMPROVED Setup Installer.
+* FIXED a bug where Rose was executing minimized in another processus.
++ UPDATED IS Icon. (Copyright from owner of the old logo)
++ UPDATED IS lib : YouTube DL v2020.11.29
++ UPDATED Direct Download Link [FR] : https://www.tirexo.lol/
++ UPDATED Portable Apps : Winaero Tweaker v0.18
++ UPDATED Portable Apps : Revo Uninstaller v2.2.0
++ UPDATED Portable Apps : Process Hacker v3.0.3593
++ UPDATED Settings : Scan down websites.
++ ADDED SEARCH to Direct Download Link, Streaming, Torrenting, Cracked Windows apps, Cracked Android APK's, Doxing. (Google feat Illegal Services search engine)
++ ADDED Streaming [FR] : https://mavanimes.co/
++ ADDED Useful Websites : https://webresolver.nl/tools/leaked_database
+- REMOVED Useful Websites : https://www.firexproxy.com/ (down)
+- REMOVED Settings : 2 backgrounds.
+
+v3.9.0.0 - 18/11/2020
+* FIXED Launcher : Bug that where not displaying latest release date.
+* FIXED IP Address Lookup : Rose voice assistant where not saying the sentence again.
++ UPDATED IS lib : YouTube DL v2020.11.18
++ UPDATED IS lib : YouTube DLC v2020.11.11-4
++ UPDATED Direct Download Link [FR] : https://www.tirexo.cc/
++ UPDATED Streaming [FR] : https://vostanimes.com/
++ UPDATED Streaming [FR] : https://www.animecomplet.org/
++ UPDATED Torrenting : https://unblockit.app/
++ UPDATED Torrenting : https://www.ettvcentral.com/
++ UPDATED Cracked Android APK's : www.vancedapp.com
++ UPDATED Portable Apps : Driver Store Explorer v0.11.64
++ UPDATED Portable Apps : Blackbird v1.0.80.2
++ UPDATED Portable Apps Process Hacker v3.0.3585
++ ADDED Frequently Asked Questions : Why Illegal Services is detected by many antiviruses ?
++ ADDED Direct Download Link [EN] : https://jpddl.com/
++ ADDED Direct Download Link [FR] : https://telecharge-magazines.com/
++ ADDED Direct Download Link [FR] : https://starwarez-sharing.org/
++ ADDED Streaming [FR] : https://streaming-films.net/
++ ADDED Streaming [FR] : https://www.streamoi.com/
++ ADDED Streaming [FR] : https://voiranime.to/
++ ADDED Streaming [FR] : https://vostfree.com/
++ ADDED Streaming [FR] : https://www.universanimeizy.com/
++ ADDED Streaming [FR] : https://www.otakufr.com/
++ ADDED Streaming [FR] : https://animecomplet.fr/
++ ADDED Torrenting : https://ettvproxies.com/
++ ADDED Cracked Windows apps : https://appnee.com/
++ ADDED IP Denial of Services : https://powerstress.xyz/
++ ADDED IP Denial of Services : https://ddosforhire.net/
++ ADDED Main Menu : Useful Websites.
+- REMOVED IP Port Scanning : Choice verification. (cause websites URL are not working)
+
+v3.8.0.0 - 12/11/2020
+- REDUCED Code.
+* IMPROVED Code.
+* FIXED More Features Windows Repair : Re-Register Store Apps not working.
++ UPDATED IP Address Lookup : Type and Proxy informations.
++ UPDATED Portable Apps : CCleaner v574
++ UPDATED Portable Apps : Blacbird v1.0.80.2:
++ UPDATED Portable Apps : Display Driver Uninstaller v18.0.3.4
++ UPDATED Portable Apps : Windows ISO Downloader
++ UPDATED Portable Apps Windows and Office Cracks. (links been removed for Illegal reasons)
++ UPDATED Portable Apps Windows and Office Cracks : KMSoffline v2.1.8
++ UPDATED Portable Apps Windows and Office Cracks : Office 2013-2019 C2R Install v7.0.8
++ UPDATED Portable Apps Windows and Office Cracks : W10 Digital License C# v3.7 Multilingual v3.7.0
++ UPDATED Portable Apps Windows and Office Cracks : AAct v4.2
++ ADDED Launcher : New versions release date informations.
++ ADDED Streaming [FR] : https://cinemey.com/ (thanks @LeSaintFisti)
++ ADDED Streaming [FR] : https://wvv.hds-streaming.la/ (thanks @LeSaintFisti)
++ ADDED Streaming [FR] : https://neko-sama.fr/ (thanks @LeSaintFisti)
++ ADDED Streaming [FR] : https://www.ianimes.org/ (thanks @LeSaintFisti)
++ ADDED Cracked Windows apps : https://shareappscrack.com/ (thanks @LeSaintFisti)
++ ADDED Cracked Windows apps : https://cracked-games.org/
++ ADDED Cracked Windows apps : https://getgamez.net/ (thanks @LeSaintFisti)
++ ADDED IP Denial of Services : https://databooter.to/
+- REMOVED Launcher : Alpha Tester Code. (Not useful anymore since the build updates system)
+- REMOVED Streaming [FR] : https://streamings-vf.net/ (scam)
+
+v3.7.0.0 - 09/11/2020
+* IMPROVED Code.
+* FIXED Launcher : Rose was not launching at first startup.
+* FIXED Torrenting : Some bugs.
+* FIXED IP Address Lookup : Lookup an other URL not working.
++ ADDED Doxing : Dox Tool V2 Error Message.
++ ADDED IP Denial of Services : https://downed.io/
++ ADDED IP Denial of Services : https://stresslab/
++ ADDED IP Port Scanning : NMAP : Scan with version detection.
+
+v3.6.0.0 - 07/11/2020
+- REDUCED Code.
+* FIXED a bug with Rose who was talking in a French-English.
++ UPDATED IS lib : YouTube DL v2020.11.01.1
++ UPDATED IS lib : nmap.exe v7.91.0.0
++ UPDATED now open explorer in maximised.
++ UPDATED Torrenting : https://kickass.onl/
++ UPDATED Torrenting : https://eztv.re/
++ UPDATED Torrenting : https://proxybay.kim/
++ UPDATED Portable Apps : Driver Store Explorer v0.11.56
++ UPDATED Portable Apps : Windows Spy Blocker v4.34.0
++ ADDED ON/OFF switches instead of enable/disable. (thanks @Agam for the idea)
++ ADDED Main Menu : Frequently Asked Questions. (FAQ)
++ ADDED Torrenting : https://www.limetorrents.info/
++ ADDED Torrenting : https://extratorrents.it/
++ ADDED IP Denial of Services : Last updated message.
+- REMOVED Streaming : https://time2watch.io/ (down)
+- REMOVED Torrenting : https://torrents.io/ (down)
+- REMOVED Torenting : Torrent Searching. (Still present in Torrenting)
+- REMOVED Torenting : . (Still present in Torrenting)
+
+v3.5.0.0 - 01/11/2020
+* FIXED Code.
++ ADDED choice verification. (IP Address Lookup) (thank you so much @sintrode for the big help)
++ ADDED Settings : Change language to English/French.
+
+v3.4.0.0 - 31/10/2020
+* IMPROVED Code.
+- REDUCED Code.
+* FIXED Launcher : Bug that where looping updating.
+- REDUCED Code. (a thank to @anic17 and Artanis for the help)
++ UPDATED Rose voice assistant.
++ UPDATED Portable Apps : DnsJumper (.ini file)
++ UPDATED Portable Apps : Ccleaner v573
++ UPDATED Portable Apps : Windows 10 Privacy v3.5.1.0
++ UPDATED Portable Apps : BlackBird v1.0.80.1
++ UPDATED Portable Apps : Windows Repair AIO v4.10.0
++ UPDATED Portable Apps : Process Hacker v3.0.3502
++ ADDED choice verification. (IP Port Scanning) (thank you so much @sintrode for the big help)
++ ADDED YouTube DL : Youtube DLC
+
+v3.3.0.0 - 24/10/2020
+- REDUCED Code.
+* FIXED IS lib : Speak\speak-en.exe detected by Windows Defender.
+* FIXED YouTube DL : A bug that couldn't change download location.
++ ADDED IS lib : Speak\extd.exe
+- REMOVED IS lib : Speak\speak-en.exe
+
+v3.2.0.0 - 24/10/2020
+* FIXED bugs. (Setup, Youtube DL, Port Scanning)
+
+v3.1.0.0 - 23/10/2020
+* IMPROVED Code.
+- REDUCED Code. (~75 ko) (a thank to @sintrode for the help)
++ UPDATED Torrenting : https://rarbg.to/
++ ADDED Rose voice assistant. (thank you so much <Tim> and also a thank to @sintrode for the help)
++ ADDED Torrenting : https://unblocktorrent.com/
++ ADDED IS lib : Speak
++ ADDED Settings : Scan down websites.
+- REMOVED Launcher : Scan down websites.
+- REMOVED Torrenting : https://extratorrent.ag/ (down)
+- REMOVED Torrenting : https://horriblesubs.info/ (down)
+
+v3.0.0.0 - 19/10/2020
+* IMPROVED Code.
++ ADDED IS lib : Curl x64
++ ADDED IS lib : 7za
++ ADDED Now all compressed Portable Apps downloads will automatically be extracted.
++ ADDED Launcher : If missing files, if you have internet it will download them instead of exiting.
+
+v2.9.0.0 - 17/10/2020
+* IMPROVED Code.
+- REDUCED Code.
+* FIXED code.
+* FIXED a bug that where causing internet problem when you launched multiple Illegal Services instances in the same time.
+* FIXED IP Address Lookup : " / characters glitch removed.
+* FIXED IP Address Lookup : https://www.iplocation.net/ not working.
++ UPDATED IS lib : curl.exe v7.73.0
++ UPDATED Direct Download Link : www.zt-za.com
++ UPDATED IP Denial of Services : stresser.net
++ UPDATED IP Denial of Services : anonboot.com
++ UPDATED YouTube DL : Now will always download in your personal music folder.
++ ADDED Launcher : Advertisement message.
++ ADDED Direct Download Link [EN] : https://anidl.org/
++ ADDED Direct Download Link [EN] : https://tb.rg-adguard.net/
++ ADDED Direct Download Link [FR] : https://www.wawacity.vip/
++ ADDED Doxing : https://pimeyes.com/
++ ADDED IP Denial of Services : https://litestress.com/
++ ADDED IP Denial of Services : https://str3ssed.co/
++ ADDED IP Denial of Services : https://thunderstresser.me/
++ ADDED IP Denial of Services : https://freeipstresser.net/
+- REMOVED IP Denial of Services : https://venomstress.nl
+
+v2.8.0.0 - 13/10/2020
+* IMPROVED Code.
+* FIXED a bug with the setup that where creating temporary files without deleting them. (a thank to @anic17)
+* FIXED a bug that where deleting all .exe and .zip from Illegal Services install folder.
+* FIXED Launcher : Auto Updater not working.
+* FIXED IP Address Lookup : Problem when city's where not fully displayed.
+* FIXED More Features : FreeBooter not working.
++ UPDATED Portable Apps : Windows Update MiniTool
++ UPDATED Portable Apps : Windows Privacy Dashboard
++ UPDATED Portable Apps : Microsoft Safety Scanner
++ UPDATED Portable Apps : Crystal Disk Info
++ ADDED Portable Apps Windows and Office Cracks : AAct
+
+v2.7.0.0 - 09/10/2020
+* IMPROVED Code. (a thank to @sintrode)
+- REDUCED Code.
+* FIXED a bug that where creating temporary files without deleting them. (thank you so much @anic17 for the big help)
+* FIXED Torrenting : https://1337x.to/ not working.
+* FIXED IP Port Scanning : https://www.adminsub.net/ not working.
+* FIXED IP Address Lookup not working. (thank you so much @anic17 for the big help)
+* FIXED Portable Apps : Windows Privacy Dashboard not working. (a thank to Rose who reminded me)
+* FIXED some error messages.
++ UPDATED Compiler Version.
++ UPDATED IS lib : YouTube DL v2020.09.20
++ UPDATED Main Menu Credits.
++ UPDATED Streaming [FR] : https://libertyvf.bz/
++ UPDATED Streaming [FR] : https://wwv.streamfilm.cc/
++ UPDATED Streaming [FR] : https://animecomplet.com/
++ UPDATED IP Address Lookup : Mobile (cellular) connection (thank you so much @anic17 for the big help)
++ UPDATED IP Address Lookup : Proxy, VPN or Tor exit address (thank you so much @anic17 for the big help)
++ UPDATED IP Address Lookup : Hosting, colocated or data center (thank you so much @anic17 for the big help)
++ UPDATED Portable Apps : Ccleaner v572
++ UPDATED Portable Apps : Driver Store Explorer v0.11.42
++ UPDATED Portable Apps : MSI Util v3
++ UPDATED Portable Apps : Windows Repair AIO v4.9.5
++ UPDATED Portable Apps : Crystal Disk Info v8.8.9
++ UPDATED Portable Apps : Everything v1.4.1.992
++ UPDATED Portable Apps : Glary Utilities
++ UPDATED Portable Apps Windows and Office Cracks
++ ADDED more error messages.
++ ADDED Launcher Auto Updater.
++ ADDED Main Menu : More Features.
++ ADDED More Options : Windows Repair
++ ADDED More Options : Windows Tweaks
++ ADDED More Options : Game Booster
++ ADDED More Options : FreeBooter
++ ADDED Portable Apps Drivers : AMD Slimmer
++ ADDED Portable Apps Anti Viruses and Malwares : Batch Antivirus
+- REMOVED Launcher : Checking your internet connection . . . (Code still present in "Searching for a new update . . .")
+
+v2.6.0.0 - 18/09/2020
+* IMPROVED Code. (All file deletion are now folder sensitive)
+* IMPROVED Code. (All .txt logs behave more smart now)
++ UPDATED IS lib : YouTube DL v2020.09.14
++ UPDATED Direct Download Link : https://www.annuaire--telechargement.com/
++ UPDATED Streaming [EN] : https://www.uwatchfree.mx/
++ UPDATED Streaming [FR] : https://gum-gum-streaming.com/
++ UPDATED Portable Apps : Ccleaner v571
++ UPDATED Portable Apps : Display Driver Uninstaller v18.0.3.2
++ UPDATED Portable Apps : Driver Store Explorer v0.11.26.zip
++ UPDATED Portable Apps : MSRT x64 v1.323.1398.0 / x86 v1.323.1379.0
++ UPDATED Portable Apps : Crystal Disk Info to v8.8.7
++ ADDED Streaming [FR] : https://www6.filmstreaming.to/
++ ADDED Streaming [FR] : https://vostanime.org/
++ ADDED Streaming [FR] : https://dbanimes.com/
++ ADDED Torrenting : https://torrentz2k.xyz/
++ ADDED Torrenting : https://idope.se/
++ ADDED Torrenting : https://torrents.io/
++ ADDED Cracked Windows apps : https://igg-games.com/
++ ADDED Cracked Windows apps : https://pcgamestorrents.com/
++ ADDED Cracked Windows apps : https://www.mrpcgamer.com/
++ ADDED Cracked Windows apps : https://skidrowcodex.co/
++ ADDED Cracked Windows apps : https://skidrowcodexgames.com/
+- REMOVED Streaming [EN] : https://popcornflix.io/ (There's not a lot of films available)
+- REMOVED Streaming [FR] : https://anime-anime.fr/ (Clone of https://www.gum-gum-streaming.co/)
+- REMOVED Streaming [FR] : https://www.full-anime.fr/ (Clone of https://www.gum-gum-streaming.co/)
+- REMOVED Streaming [FR] : https://www.wakanim.tv/ (Paid website)
+- REMOVED Torrenting : https://1337x.to/ (Now only show in Torrenting)
+- REMOVED Cracked Android APK's : https://bitapk.com/
+
+v2.5.0.0 - 13/09/2020
+* IMPROVED and REDUCED code. (thank you so much @anic17 and @sintrode for the big help)
+* IMPROVED time for Launcher. (thank you so much @anic17 for the big help)
+* FIXED a bug with the display of the arrows. (changed the arrow style)
+* FIXED all bugs in Portable Apps.
+* FIXED YouTube DL : .webm not working.
+* FIXED IP Port Scanning : NMAP now only show opened ports. (before it was also showing CLOSED one's)
++ UPDATED Main Menu.
++ UPDATED Streaming [EN] : https://animedao.to/
++ UPDATED Streaming [EN] : https://www.uwatchfree.ag/
++ UPDATED Torrenting : https://torrentz2.is/
++ UPDATED IP Denial of Services : https://anonboot.net/
++ UPDATED Portable Apps : Windows Spy Blocker v4.33.1
++ UPDATED IS Source : YouTube DL v2020.09.06
++ ADDED curl folder for IS Source. (thank you so much @sintrode for the big help)
++ ADDED New installation prompt window syle.
++ ADDED YouTube DL : BEST
++ ADDED Cracked Windows apps : http://www.intercambiosvirtuales.org/
++ ADDED Cracked Windows apps : https://karanpc.com/
++ ADDED Cracked Windows apps : https://free4pc.org/
++ ADDED Cracked Windows apps : https://haxnode.com/
++ ADDED Cracked Windows apps : http://starcrack.net/
++ ADDED Cracked Windows apps : https://crackshash.com/
++ ADDED Cracked Windows apps : https://repack-games.com/
++ ADDED Cracked Windows apps : https://fitgirl-repacks.site/
++ ADDED Cracked Windows apps : https://v.xatab-repack.net/
++ ADDED Cracked Windows apps : https://repack-mechanics.com/
++ ADDED Cracked Windows apps : http://www.blackboxrepack.com/
++ ADDED IP Denial of Services : https://stresser.net/
+- REMOVED Streaming [EN] : https://kissanime.pro/
+- REMOVED Cracked Windows apps : https://forum.ru-board.com/
+- REMOVED IP Denial of Services : https://str3ssed.co/
+- REMOVED IP Denial of Services : https://client.undisclosed.to/
+- REMOVED IP Denial of Services : https://quickboot.ru
+- REMOVED Torrenting : https://newkatcr.co/ (down)
+- REMOVED Torrenting : https://www.xtorx.com/ (still work but dead)
+- REMOVED wget.exe from IS Source.
+
+v2.4.0.0 - 25/08/2020
+- REDUCED Code.
+* IMPROVED code : Launcher updater. (thank you so much <Tim> and @anic17 for the big help)
+* FIXED Change background transparency : Now have error messages if not a correct value.
+* FIXED Doxing : Dox Tool v2 not working.
+* FIXED HELP (Main Menu) : English language was missing some line return's.
++ UPDATED Setup Eula.
++ UPDATED Streaming [FR] : https://animecomplet.co
++ UPDATED Torrenting : https://proxybay.gdn/
++ UPDATED Torrenting : https://unblockit.top/
++ ADDED Torrenting : https://unblockproject.uno/
++ ADDED Streaming [EN] : https://www.primewire.li/
++ ADDED Streaming [EN] : https://losmovies.to/
++ ADDED Streaming [EN] : https://watch-serieshd.cc/
++ ADDED Streaming [EN] : https://123movies.co/
++ ADDED Streaming [EN] : https://gomovie.co/
++ ADDED Streaming [EN] : https://primewire.pw/
++ ADDED Streaming [EN] : https://gomovies.re/
++ ADDED Streaming [EN] : https://gomovies-online.me/
++ ADDED Streaming [EN] : https://watchseries.movie/
++ ADDED Streaming [EN] : https://f2movies.to/
++ ADDED Streaming [EN] : https://solarmovie.to/
++ ADDED Streaming [EN] : https://fmovies.to/
++ ADDED Streaming [EN] : https://www.uwatchfree.ai/
++ ADDED Streaming [EN] : https://123movieshub.tc/
++ ADDED Streaming [EN] : https://popcornflix.io/
++ ADDED Streaming [FR] : https://wvw.streamfilm.cc/
++ ADDED Streaming [FR] : https://voir.lesseriestreaming.com/
++ ADDED Streaming [FR] : https://voirseries.tv/
++ ADDED Streaming [FR] : https://streaming-integrale.com/
++ ADDED Streaming [FR] : https://www.gum-gum-streaming.co/
++ ADDED Streaming [FR] : https://www.fullanimefr.com/
++ ADDED Streaming [FR] : https://www.manga-vf.fr/
++ ADDED Streaming [FR] : https://anime-anime.fr/
++ ADDED Streaming [FR] : https://www.full-anime.fr/
++ ADDED Streaming [FR] : https://www.wakanim.tv/
++ ADDED Portable Apps (Anti Viruses and Malwares) : Kaspersky KVRT
++ ADDED Portable Apps (Anti Viruses and Malwares) : Kaspersky TDSSKiller
++ ADDED Portable Apps (Anti Viruses and Malwares) : Microsoft Safety Scanner
++ ADDED Portable Apps : Tweakers
++ ADDED Portable Apps : Cleaners
++ ADDED Portable Apps : Updaters/Drivers
++ ADDED Portable Apps : Drivers
++ ADDED Portable Apps : Other's
++ ADDED Portable Apps : Windows and Office Cracks
++ ADDED QuickEdit disabled. (buggy)
++ ADDED "batool.exe" for IS Source.
+- REMOVED "batbox.exe" from IS Source.
+
+v2.3.0.0 - 19/08/2020
+* IMPROVED Code.
+* IMPROVED time for Launcher down websites scan.
+* IMPROVED code of YouTube DL.
+* FIXED YouTube DL that does not open the output folder once the download is complete. (thank you so much Nick_Z for solving that problem)
+* FIXED YouTube DL : At the first launch, the output folder was not working.
+* FIXED YouTube DL : .FLV and .avi not working.
+* FIXED Main Menu : The username was deplacing a special character from the UI.
+* FIXED Main Menu : When wrong choice, it was creating a file called "nu".
+* FIXED code of Architecture detection.
++ UPDATED IS Source : ffmpeg.exe
++ UPDATED Torrenting : https://www.oxtorrent.cc/
++ UPDATED Torrenting : https://www.torrent9.gg/
++ UPDATED  : https://torrentmirror.fun/
++ ADDED more French translations.
++ ADDED more error messages.
++ ADDED Launcher : Checking new updates . . .
++ ADDED Streaming [EN] : https://hentaihaven.org/
+- REMOVED launcher : Detecting Windows version . . .
+- REMOVED Torrenting : https://veoble.com/ (still work but dead since 2015)
+- REMOVED Torrenting : http://www.toorgle.net (scam)
+
+v2.2.0.0 - 16/08/2020
+* FIXED IP Port Scanning not working. (sorry, it was my fault)
+* FIXED "Access is denied." in NMAP IP Port Scanning. (when my application was not working as an administrator, there was an error if the UAC was enabled)
+* FIXED a bug in the Main Menu where it said you were using v2.0
+* FIXED a bug in the Setup that was Removing Portable_Apps after an reinstall or upgrade.
++ UPDATED Main Menu : Miscellaneous (for more Portable Applications)
++ UPDATED Main Menu HELP
++ UPDATED Tutorial.txt
++ UPDATED Setup Eula.
++ UPDATED Settings : Background n°5
++ UPDATED Settings : Background n°6
++ ADDED IS Source : Administrator manifest. (to fix Port Scanner "Access is denied.")
++ ADDED Main Menu : Portable Apps (for more Portable Applications)
+- REMOVED Ansicon for Windows 10. (for old Windows it will download it)
+
+v2.1.0.0 - 14/08/2020
+- REDUCED some code.
+* IMPROVED code of Architecture detection.
+* FIXED No error message displayed when nothing has been selected and the enter key on the keypad is pressed.
+* FIXED a bug when apps where creating they're files into Illegal Services folder.
+* FIXED Windows Privacy/Telemetry : "blackbird.exe"
+* FIXED Settings : Background n°5 not working.
+* FIXED Settings : Background n°4 missing.
++ UPDATED IP Port Scanning : Most Used Port Scan here (also now support x32 bits)
++ UPDATED Main Menu : View My Computer compenments
++ UPDATED Anti Viruses and Malwares : Rogue Killer
++ UPDATED Anti Viruses and Malwares : ADW Cleaner
++ UPDATED Anti Viruses and Malwares : ZHP Cleaner
++ UPDATED Windows Privacy/Telemetry : Windows Spy Blocker
++ UPDATED Windows Privacy/Telemetry : DoNotSpy 10
++ UPDATED Windows Privacy/Telemetry : OOSU10
++ UPDATED IP Denial of Services : https://freeboot.to/
++ UPDATED Now external files will be downloaded from GitHub and will go to "Portable_Apps".
++ ADDED Main Menu : YouTube DL
++ ADDED Settings : Disable Launcher downed websites scan.
++ ADDED Settings : Save your settings in "Settings.ini".
++ ADDED Doxing : Metadata Search Engines.
++ ADDED Doxing : https://searx.neocities.org/
++ ADDED Doxing : https://yippy.com/
++ ADDED Doxing : https://www.dogpile.com/
++ ADDED Doxing : https://www.metacrawler.com/
++ ADDED Doxing : http://www.delta-search.com/
++ ADDED Doxing : https://www.excite.co.jp/
++ ADDED Doxing : https://www.google.com/advanced_image_search
++ ADDED Doxing : https://www.toolsbug.com/youtube-video-tag-extractor.php
++ ADDED Doxing : http://online-free-tools.com/en/youtube_video_tags_extract_url
++ ADDED Doxing : https://ytubetool.com/
++ ADDED Streaming [EN] in Streaming.
++ ADDED Streaming [EN] : https://www2.f2movies.to/
++ ADDED Streaming [EN] : https://www.watchepisodeseries1.com/
++ ADDED Streaming [EN] : https://www2.gogoanime.video/
++ ADDED Torrenting : https://extratorrent.ag/
++ ADDED Now can choice "B"="BACK" to reduce your time; same for "H"="HELP" and "I"="INSTALL".
++ ADDED Launcher : Architecture detection.
++ ADDED TCP_Port_Scanner.exe for IS Source.
++ ADDED Fart.exe to IS Source.
++ ADDED IP Address Lookup : https://dnschecker.org/
++ ADDED IP Port Scanning : NPCAP Install.
++ ADDED TCP_Port_Scanner.exe for IS Source.
+- REMOVED Windows Privacy/Telemetry : Debotnet (too much difficult to download)
+- REMOVED TCP_Port_Scanner_v1.exe for IS Source.
+- REMOVED TCP_Port_Scanner_v2.exe for IS Source.
+- REMOVED IP Address Lookup : https://whatismyipaddress.com/ (too much of telemetry)
+- REMOVED IP Address Lookup : https://iplogger.org/ (not good enought)
+- REMOVED IP Denial of Services : https://quickboot.ru/ (not working anymore)
+- REMOVED IP Denial of Services : https://str3ssed.co/ (not free anymore)
+- REMOVED IP Port Scanning : Most Used Port Scan here v2
+- REMOVED IP Port Scanning : https://www.ipvoid.com/
+- REMOVED IP Port Scanning : https://pentest-tools.com/
+- REMOVED IP Port Scanning : https://hidemy.name/
+- REMOVED IP Port Scanning : https://hackertarget.com/
+- REMOVED IP Port Scanning : https://www.yougetsignal.com/
+- REMOVED IP Port Scanning : Custom Port Scan here
+- REMOVED "Pscan.exe". (NMAP replaced it because Pscan wath not compatible with x32 bits)
+
+v2.0.0.0 - 04/08/2020
+* IMPROVED Code of Illegal Services.
+* IMPROVED Code of the launcher.
+* IMPROVED Code of the IP Pinger.
+- REDUCED the time for error messages display.
+* FIXED a bug in the setup that was using old "Launcher.exe" for the setup icon.
+* FIXED A bug when the colors are still displayed after changing submenu in Windows 2000, XP, Vista, 7, 8, 8.1 versions.
+* FIXED Rescaling the window moves automatically the choice to the left.
+* FIXED error messages display that could be skipped.
+* FIXED Some error messages.
+* FIXED Doxing problems. (thanks @Rosalyn)
+* FIXED IP Pinger not working.
+* FIXED IP Address Lookup not working.
+* FIXED Windows Privacy/Telemetry : BlackBird.exe Windows Defender false positive detection.
+* FIXED Windows Privacy/Telemetry : BlackBird.exe x86 not working.
++ UPDATED all Windows UI and support.
++ UPDATED all link Addresses.
++ ADDED more French translations.
++ ADDED Multiple choices.
++ ADDED Cursor that hide itself when he's not useful.
++ ADDED Now Illegal Servcies could (because not tested by myself) also support Windows 2000, XP and Vista versions.
++ ADDED "ansicon.exe" for IS Source.
++ ADDED "ANSI32.dll" for IS Source.
++ ADDED "batbox.exe" for IS Source.
++ ADDED "cmdwiz.exe" for IS Source.
++ ADDED "cmdbkg.exe" for IS Source.
++ ADDED Our telegram group in Main Menu.
++ ADDED Direct Download Link : https://libertyvf.tv/
++ ADDED Torrenting : https://proxygalaxy.pw/
++ ADDED Windows : https://fileriver.net/
++ ADDED IP Denial of Services : https://anonboot.com/
++ ADDED Short URL's : https://tiny.cc/
++ ADDED Doxing : https://www.pic2map.com/
++ ADDED Doxing : https://onlineexifviewer.com/
++ ADDED Doxing : https://www.metadata2go.com/
++ ADDED Doxing : https://www.startpage.com/do/advanced-search
+- REMOVED Torrenting :  https://www.zetorrents.io/ (old clone of OXTORRENT)
+- REMOVED "EXIT". (Not useful since you already can exit with Windows)
+- REMOVED Torrenting : https://bitcq.com/ (down)
+- REMOVED IP Denial of Services : https://minesearch.rip/ (down)
+- REMOVED IP Denial of Services : https://instress.me/ (down)
+- REMOVED "Tutorial" Sub Menu in Torrenting. (replaced by "HELP")
+- REMOVED "Illegal_Services_win.exe" for IS Source. (Not needed anymore since the new improved code)
+- REMOVED "Launcher.exe" for IS Source. (Not needed anymore since the new improved code)
+- REMOVED "IPPinger.bat" from IS Source. (Not needed anymore since the new improved code)
+- REMOVED "cecho.exe" from IS Source. (Not needed anymore since the new improved code)
+- REMOVED "sfk.exe" from IS Source. (Not needed anymore since the new improved code)
+- REMOVED all "menu_.py" files from IS Source. (Not needed anymore since the new improved code)
+- REMOVED Doxing : http://metapicz.com/ (too much of telemetry)
+- REMOVED Streaming : https://www.serie-streaming.la/ (scam)
+- REMOVED Streaming : https://wwv.papystreaming.is/ (scam)
+- REMOVED Streaming : https://illimitestreaming.tv/ (scam)
+- REMOVED Streaming : https://sc.stream-complet.co/ (scam)
+- REMOVED Streaming : https://voir.lesseriestreaming.com/ (scam)
+- REMOVED Streaming : https://www.gratflix.com/ (scam)
+- REMOVED Streaming : https://wiflix.net/ (scam)
+- REMOVED Streaming : https://filmvf.in/ (scam)
+- REMOVED Streaming : https://hdss.to/ (scam)
+
+v1.9.0.0 - 22/07/2020
+* FIXED An issue advertising at false positive downed websites in the Launcher.
+* IMPROVED Code. (Language detection)
+* IMPROVED Code. (Launcher errors)
++ ADDED Launcher Internet detection (Skip WebSites detection error messages if u don't have internet)
++ ADDED IP Denial of Services : https://str3ssed.co/
++ ADDED IP Denial of Services : https://instress.me/
++ ADDED Short URL's in IPLoggers.
++ ADDED Short URL's : https://bitly.com/
++ ADDED Short URL's : https://shorturl.me/
++ ADDED Short URL's : https://shorturl.com/
++ ADDED Short URL's : https://www.shorturl.at/
++ ADDED Short URL's : https://kutt.it/
++ ADDED Main Menu : Doxing
++ ADDED Doxing : https://images.google.com/
++ ADDED Doxing : https://www.bing.com/?scope=images
++ ADDED Doxing : https://yandex.com/images/
++ ADDED Doxing : https://image.baidu.com/
++ ADDED Doxing : https://pic.sogou.com/
++ ADDED Doxing : https://metapicz.com/
++ ADDED Doxing : https://www.google.com/advanced_search
++ ADDED Doxing : Dox Tool V2.exe
++ ADDED Doxing : https://checkusernames.com/
++ ADDED Doxing : https://knowem.com/
+
+v1.8.0.0 - 21/07/2020
+* IMPROVED How websites and applications opens.
+* FIXED : IP Tracker (WebSite) error who redirected on Port Scanner.
+* FIXED : IP Tracker (Here) error.
+* FIXED Windows Defender false positive detection.
+* FIXED Setup "uninstall"  button.
++ UPDATED IP Pinger.
++ ADDED cecho.exe
++ ADDED Downed WebSites detection to Launcher.
++ ADDED IP Denial of Services : https://freestresser.to/
++ ADDED Main Menu : Anti-Virus Detection
++ ADDED Main Menu : Windows Privacy
++ ADDED Windows Privacy : OOSU10 (Win 10)
++ ADDED Windows Privacy : Ashampoo AntiSpy (Win 10)
++ ADDED Windows Privacy : DoNotSpy 10
++ ADDED Windows Privacy : Windows Privacy Destroyer
++ ADDED Windows Privacy : Windows 10 Privacy
++ ADDED Windows Privacy : Windows Spy Blocker
++ ADDED Windows Privacy : Destroy Windows Spying
++ ADDED Windows Privacy : DebotNet
++ ADDED Windows Privacy : BlackbBird
++ ADDED Anti-Virus Detection : ADW Cleaner.
++ ADDED Anti-Virus Detection : ZHP Cleaner.
++ ADDED Anti-Virus Detection : Rogue Killer.
++ ADDED Anti-Virus Detection : No Bot.
++ ADDED Android : https://bitapk.com/
+- REMOVED IP Denial of Services : https://torstress.com/ (down)
+
+v1.7.0.0 - 14/07/2020
+- CUSTOMIZED Main Menu.
+* FIXED : Windows Smart Screen "Unknown Publisher" message at opening.
+* FIXED : Windows Defender false positive virus detection for "IS Setup.exe" .
++ UPDATED all link Addresses.
++ ADDED IS Source : Signed all my executables.
++ ADDED an Setup to install or uninstall Illegal Services.
++ ADDED Main Menu : Direct Download Link
++ ADDED Portable in WINDOWS.
++ ADDED Streaming : http://www.anime-ultime.net/ (v4)
++ ADDED Streaming : https://v5.anime-ultime.net/ (v5)
++ ADDED Torrenting : https://torrentproject2.com/
++ ADDED Torrenting : https://isohunt.app/
++ ADDED Direct Download Link : https://www.tirexo.com/
++ ADDED Direct Download Link : https://www.zt-za.com/
++ ADDED Direct Download Link : https://www.ddl1.best/
++ ADDED Direct Download Link : https://www.site-de-telechargement.com/
++ ADDED Direct Download Link : https://www.ddl-is.land/
++ ADDED WINDOWS : https://filecr.com/
++ ADDED WINDOWS : https://crackingpatching.com/
++ ADDED WINDOWS : https://crackzsoft.me/
++ ADDED WINDOWS : https://lostvayne.com/
++ ADDED WINDOWS : https://portableappz.blogspot.com/
+- REMOVED Streaming : https://wwv.cpasbien.to/ (scam)
+- REMOVED WINDOWS : https://taiphanmempc.net/ (Reuploading)
+- REMOVED WINDOWS : https://rlsbb.ru/ (down)
+
+v1.6.0.0 - 08/07/2020
+- CUSTOMIZED Main Menu.
++ UPDATED all link Addresses.
++ UPDATED Most Used Port Scan here.
++ ADDED Automatic computer language detection to display the program in French or English. (Some text is still in English.)
++ ADDED View My Computer compenments.
++ ADDED Streaming : https://hdss.to/
++ ADDED Streaming : https://www.wiflix.net
++ ADDED Streaming : https://time2.watch/
++ ADDED Streaming : https://www.regardergratuit.org/
++ ADDED Streaming : https://wwv.papystreaming.is/
++ ADDED Streaming : https://papystreaming.net/
++ ADDED Streaming : https://www.papystreaming.cc/
++ ADDED Torrenting : https://www.tirexo.com/ (Zone Téléchargement v3)
++ ADDED Torrenting : https://torrent-paradise.ml/
++ ADDED Windows : https://www.mazterize.com/
++ ADDED Port Scanning : https://portforward.com/ports.htm
+- REMOVED Streaming : https://wvv.voirfilms.club/ (scam)
+- REMOVED Streaming : https://wvw.papstream.cc/ (scam)
+- REMOVED Streaming : https://www.papystreaming.so/ (scam)
+- REMOVED Streaming : https://wwv.stream-island.org/ (scam)
+- REMOVED Torrenting : https://thekickasstorrents.com/ (scam)
+- REMOVED Windows : https://novelsghar.com/ (down)
+- REMOVED Windows : https://install.lctutors.com.br/ (down)
+- REMOVED IP Denial of Services : https://fasthub.pw/ (down)
+- REMOVED IP Denial of Services : https://stress.to/ (down)
+- REMOVED IP Denial of Services : https://anonboot.pw/ (down)
+
+v1.5.0.0 - 22/06/2020
+* IMPROVED Code.
++ UPDATED .py files for a better design.
++ UPDATED a Launcher (Make the support for Windows 7,8,8.1 ; Also he check files to prevent any errors.)
++ UPDATED a new Port Scanner.
++ UPDATED IP Pinger.
++ UPDATED IP Pinger TCP.
++ UPDATED links for Streaming VF.
++ UPDATED Version Title.
++ UPDATED How IP Address Lookups links works.
++ ADDED SpeedTest.
++ ADDED Internet DNS Changer.
++ ADDED Internet Optimizer.
+
+v1.4.0.0 - 25/05/2020
+- CUSTOMIZED Main Menu.
+* IMPROVED Code.
+* FIXED a display bug when you enlarge and then shrink the window.
+* FIXED "exit" & "back" command can now be writted with caps.
++ ADDED Main Menu is now auto adjusted for a good window size.
++ ADDED IP Address Lookup websites.
++ ADDED executable extension.
+
+v1.3.0.0 - 23/05/2020
+- CUSTOMIZED Main Menu.
+* FIXED when clicking any number it will do a random action in the actual page.
+* IMPROVED Code.
++ ADDED Wrong choice messages.
+
+v1.2.0.0 - 23/05/2020
+- CUSTOMIZED Main Menu.
++ ADDED All Sub Menu Named.
++ ADDED Main Menu Rainbow start.
++ ADDED Choice Redirect to internet.
+
+v1.1.0.0 - 22/05/2020
+- CUSTOMIZED Main Menu.
++ ADDED TORRENT : Tutorial
+
+v1.0.0.0 - 22/05/2020
+Official Release.
